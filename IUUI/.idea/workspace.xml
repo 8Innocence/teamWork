@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fdea84e-676c-4b66-8c89-5174afdac61a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/src/assets/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/src/pages/model.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-hot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-hot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-hot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-hot4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-hot5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-seek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-slide3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fivePersonApp/static/images/tt-slide4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fivePersonApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/fivePersonApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fivePersonApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fivePersonApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fivePersonApp/src/components/DL/IndexHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fivePersonApp/src/components/DL/IndexHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fivePersonApp/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fivePersonApp/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="temeWork" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonApp/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonApp/src/assets/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="IndexHeader.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/DL/IndexHeader.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/Index.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Content.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/Content.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="13" selection-start-line="13" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/model.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <folding>
+                <element signature="e#305#338#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonApp/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cc.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/cc.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fivePersonApp/src/pages/test.vue" />
+        <option value="$PROJECT_DIR$/fivePersonApp/src/assets/css/reset.css" />
+        <option value="$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSeek.vue" />
+        <option value="$PROJECT_DIR$/fivePersonApp/package.json" />
+        <option value="$PROJECT_DIR$/fivePersonApp/postcss.config.js" />
+        <option value="$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSlideshow.vue" />
+        <option value="$PROJECT_DIR$/fivePersonApp/src/components/model/ModelList.vue" />
+        <option value="$PROJECT_DIR$/fivePersonApp/src/components/model/ModelExample.vue" />
+        <option value="$PROJECT_DIR$/fivePersonApp/src/router/index.js" />
+        <option value="$PROJECT_DIR$/fivePersonApp/src/components/DL/IndexHeader.vue" />
+        <option value="$PROJECT_DIR$/fivePersonApp/src/pages/model.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/../TMALL/tmall-server/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../TMALL/tmall-webapp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/fivePersonApp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/fivePersonService/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/../TMALL/tmall-server/package.json" />
+      <path value="$PROJECT_DIR$/../TMALL/tmall-webapp/package.json" />
+      <path value="$PROJECT_DIR$/fivePersonApp/package.json" />
+      <path value="$PROJECT_DIR$/fivePersonService/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/path-parse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/postcss-import/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/postcss-value-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/read-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/supports-color/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="119" />
+    <option name="y" value="4" />
+    <option name="width" value="1149" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="teamWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temeWork" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="teamWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temeWork" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="teamWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temeWork" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="teamWork" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temeWork" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="teamWork" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temeWork" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="teamWork" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temeWork" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="teamWork" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temeWork" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="teamWork" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temeWork" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="teamWork" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonApp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TMALL" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\threeproject\teamWork\fivePersonApp\src\assets\css" />
+      <recent name="E:\threeproject\teamWork\fivePersonApp\node_modules" />
+      <recent name="E:\threeproject\teamWork\fivePersonApp\static\images" />
+      <recent name="E:\Threephase\temeWork\fivePersonApp\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\threeproject\teamWork\fivePersonApp\src\pages" />
+      <recent name="E:\threeproject\teamWork\fivePersonApp\src\components" />
+      <recent name="E:\threeproject\temeWork\fivePersonApp\static\images" />
+      <recent name="E:\Threephase\temeWork\fivePersonApp\src\assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="www" working-dir="$PROJECT_DIR$/../TMALL/tmall-server/bin" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fdea84e-676c-4b66-8c89-5174afdac61a" name="Default" comment="" />
+      <created>1543324186075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543324186075</updated>
+      <workItem from="1543324187270" duration="113000" />
+      <workItem from="1543374562935" duration="53000" />
+      <workItem from="1543380991178" duration="16595000" />
+      <workItem from="1543408963529" duration="6482000" />
+      <workItem from="1543420421145" duration="4118000" />
+      <workItem from="1543449904584" duration="1641000" />
+      <workItem from="1543487210762" duration="4333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33335000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7966102" weight="0.28645834" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41487604" />
+      <window_info id="Favorites" order="2" sideWeight="0.20338982" side_tool="true" weight="0.28645834" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7966102" visible="true" weight="0.28645834" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.41487604" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.20338982" side_tool="true" visible="true" weight="0.28645834" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSeek.vue</url>
+          <line>22</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/fivePersonApp/postcss.config.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSeek.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelList.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSlideshow.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/test.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/model.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelExample.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSeek.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelList.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSlideshow.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/test.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/model.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelExample.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSeek.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelList.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSlideshow.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/test.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/model.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonService/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/static/images/tt-slide2.png" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/test.vue" />
+    <entry file="file://$PROJECT_DIR$/../TMALL/tmall-server/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/postcss.config.js" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSlideshow.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelList.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSeek.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/static/images/index.png" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/static/images/tt-slide1.png" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/static/images/tt-seek.png" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/static/images/tt-hot2.jpg" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/static/images/tt-hot1.jpg" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelExample.vue" />
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/static/images/tt-slide3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/Index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/DL/IndexHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/cc.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/Content.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/TT/ModelList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/TT/ModelSeek.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/TT/ModelExample.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/node_modules/swiper/src/less/mixins.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/assets/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/model.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#305#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
