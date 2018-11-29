@@ -1,0 +1,50 @@
+[
+  {
+    "shopname":"南极人专卖店",
+    "pic":"../../../static/img/shop1.gif",
+    "title":"南极人口罩男女防尘保暖可爱黑色秋冬季",
+    "msg":"2副装【笑脸+爱心】",
+    "price":"19.8",
+    "qal":1
+  },
+  {
+    "shopname":"佐卡伊旗舰店",
+    "pic":"../../../static/img/shop3.gif",
+    "title":"佐卡伊玫瑰18K金蜗牛项链",
+    "msg":"剧中同款 现货",
+    "price":"1999",
+    "qal":1
+  },
+  {
+    "shopname":"佐卡伊旗舰店",
+    "pic":"../../../static/img/shop4.gif",
+    "title":"佐卡伊玫瑰18K钻石对戒",
+    "msg":"女戒8分H/SI",
+    "price":"1599",
+    "qal":1
+  },
+  {
+    "shopname":"能量数码官方旗舰店",
+    "pic":"../../../static/img/shop6.gif",
+    "title":"Apple/苹果iphone XS Max苹果 ",
+    "msg":"银色 官方标配",
+    "price":"8998",
+    "qal":1
+  },
+  {
+    "shopname":"名得利数码专卖店",
+    "pic":"../../../static/img/shop7.gif",
+    "title":"2.4G无线鼠标键盘套装",
+    "msg":"白色套装",
+    "price":"19999",
+    "qal":1
+  },
+  {
+    "shopname":"惠普家富惠城专卖",
+    "pic":"../../../static/img/shop8.gif",
+    "title":"上午轻薄便携13.3英寸PC平板二合一",
+    "msg":"翻转 触控屏 官方标配",
+    "price":"5399",
+    "qal":1
+  }
+]

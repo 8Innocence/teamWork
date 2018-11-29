@@ -1,0 +1,29 @@
+@charset "utf-8";
+ /*CSS Document*/
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    background:#f3f3f3;
+}
+html{
+    font-size:26.67vw;
+}
+body{font-family:"微软雅黑",Arial;
+    /*display:flex;*/
+    /*flex-direction:column;*/
+    background:white;
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border:none;
+    display:block;
+}
+
