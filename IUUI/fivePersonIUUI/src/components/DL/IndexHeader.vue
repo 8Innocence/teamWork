@@ -1,7 +1,7 @@
 <template>
   <header>
-    <h1>iuui</h1>
-    <input type="text" placeholder="查找" id="txt">
+    <h1 @click="goind()">iuui</h1>
+    <input type="text" placeholder="Search" id="txt">
     <div><a href="javascript:;" @click="go()">文档</a></div>
     <div><a href="javascript:;">实例</a></div>
     <div class="show">
@@ -15,9 +15,12 @@
     export default {
         name: "IndexHeader",
         methods:{
-            go(){
-              this.$router.push({path:"Content"})
-            },
+          go(){
+            this.$router.push({path:"Content"})
+          },
+          goind(){
+            this.$router.push({path:"/"})
+          },
             gocc(){
               this.$router.push({path:"cc"})
             },
@@ -30,9 +33,10 @@
 
 <style scoped>
   header{
-    width:90%;
+    width:100%;
     height:80px;
     margin:0 auto;
+    padding:0 5%;
   }
   header h1{
     float:left;
@@ -40,14 +44,18 @@
     line-height:80px;
   }
   #txt{
-    margin:32px 400px 0 100px;
-    height:20px;
+    margin:18px 300px 0 80px;
+    padding-left:15px;
+    border-radius: 5px;
+    width:300px;
+    height:45px;
     background:none;
-    border:1px solid #070008;
+    border:1px solid white;
     color:white;
     /*border:none;*/
     outline: none;
     float:left;
+
   }
   header div a{
     display:block;
@@ -58,6 +66,7 @@
     text-align:center;
     line-height:80px;
     margin: 0 10px;
+    box-sizing: border-box;
   }
   header div a:hover{
     border-bottom:3px solid #ac0;

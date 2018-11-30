@@ -25,7 +25,7 @@
   .box{
     width:200px;
     height:200px;
-    margin:100px auto;
+    margin:60px auto;
     transform-style:preserve-3d;
     animation:lft 10s infinite linear;
     /*border-radius:50%;*/
