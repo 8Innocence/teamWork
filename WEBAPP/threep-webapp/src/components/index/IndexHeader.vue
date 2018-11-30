@@ -55,6 +55,7 @@ header{
     top: .3rem;
     right: .1rem;
     position: absolute;
+    z-index: 2;
   }
   header ul li a{
     border-bottom:1px solid #c8c7cc;
