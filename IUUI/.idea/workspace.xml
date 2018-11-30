@@ -17,24 +17,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ModelSeek.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/components/TT/ModelSeek.vue">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="element.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/pages/element.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+              <folding>
+                <element signature="e#1310#1388#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="butRadioGroup.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/components/ZDS/butRadioGroup.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-957">
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#el-radio-group#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-menu#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-radio-group#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/pages/Index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Content.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/pages/Content.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="model.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/pages/model.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-100">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.dev.conf.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.dev.conf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fivePersonIUUI/build/webpack.dev.conf.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2755" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentLeft.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/components/XT/ContentLeft.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonIUUI/node_modules/element-ui/packages/button/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonIUUI/node_modules/element-ui/packages/button/src/button.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="element-ui.common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fivePersonIUUI/node_modules/element-ui/lib/element-ui.common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1221">
+              <caret line="261" column="30" selection-start-line="261" selection-end-line="262" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -66,6 +141,9 @@
         <option value="$PROJECT_DIR$/fivePersonApp/src/components/DL/IndexHeader.vue" />
         <option value="$PROJECT_DIR$/fivePersonApp/src/pages/model.vue" />
         <option value="$PROJECT_DIR$/fivePersonIUUI/src/pages/model.vue" />
+        <option value="$PROJECT_DIR$/fivePersonIUUI/node_modules/element-ui/packages/button/src/button.vue" />
+        <option value="$PROJECT_DIR$/fivePersonIUUI/src/components/ZDS/butRadioGroup.vue" />
+        <option value="$PROJECT_DIR$/fivePersonIUUI/src/pages/element.vue" />
       </list>
     </option>
   </component>
@@ -97,8 +175,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="124" />
+    <option name="y" value="14" />
     <option name="width" value="1149" />
     <option name="height" value="780" />
   </component>
@@ -114,6 +192,47 @@
             <path>
               <item name="IUUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="IUUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IUUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonIUUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IUUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonIUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IUUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonIUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IUUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonIUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IUUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonIUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="XT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IUUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="fivePersonIUUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,24 +303,25 @@
       <workItem from="1543487210762" duration="4333000" />
       <workItem from="1543501119721" duration="5063000" />
       <workItem from="1543560930875" duration="577000" />
-      <workItem from="1543570715833" duration="576000" />
+      <workItem from="1543570715833" duration="5349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39551000" />
+    <option name="totallyTimeSpent" value="44324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7966102" visible="true" weight="0.2857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7966102" visible="true" weight="0.26860118" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.65015477" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32043344" />
       <window_info id="Favorites" order="2" sideWeight="0.20338982" side_tool="true" weight="0.28645834" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,18 +371,10 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelList.vue" />
-    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSlideshow.vue" />
-    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/test.vue" />
-    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/model.vue" />
-    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelExample.vue" />
-    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/router/index.js" />
-    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSeek.vue" />
-    <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelList.vue" />
     <entry file="file://$PROJECT_DIR$/fivePersonApp/src/components/model/ModelSlideshow.vue" />
     <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/test.vue" />
     <entry file="file://$PROJECT_DIR$/fivePersonApp/src/pages/model.vue" />
@@ -321,13 +433,77 @@
     <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/pages/model.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fivePersonIUUI/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/components/XT/ContentLeft.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonIUUI/node_modules/element-ui/packages/button/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonIUUI/node_modules/element-ui/packages/button/src/button.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonIUUI/node_modules/element-ui/lib/element-ui.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1221">
+          <caret line="261" column="30" selection-start-line="261" selection-end-line="262" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/pages/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/pages/Content.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/components/ZDS/butRadioGroup.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-957">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#el-radio-group#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-menu#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-radio-group#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fivePersonIUUI/src/pages/element.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding>
+            <element signature="e#1310#1388#0" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

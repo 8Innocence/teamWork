@@ -1,24 +1,27 @@
 <template>
-  <div class="container ">
-    <content-left class="col-sm-2"></content-left>
-    <ul class="main col-sm-10">
-      <!--文本编辑器区域-->
-      <!--<textarea id="text">-->
-      <!---->
-      <!--</textarea>-->
-      <li @click="change">
-        <but-el-row></but-el-row>
-      </li>
-      <li>
-        <but-radio-group></but-radio-group>
-      </li>
-      <li>
-        <but-fade-in-out></but-fade-in-out>
-      </li>
+  <div class="container">
+    <index-header class="XT"></index-header>
+    <div class="elm">
+      <content-left class="left"></content-left>
+      <ul class="main">
+        <!--文本编辑器区域-->
+        <!--<textarea id="text">-->
+        <!---->
+        <!--</textarea>-->
+        <li @click="change">
+          <but-el-row></but-el-row>
+        </li>
+        <li>
+          <but-radio-group></but-radio-group>
+        </li>
+        <li>
+          <but-fade-in-out></but-fade-in-out>
+        </li>
 
 
 
-    </ul>
+      </ul>
+    </div>
   </div>
 
 
@@ -32,8 +35,10 @@
   import ButRadioGroup from "../components/ZDS/butRadioGroup";
   import CodeEditor from "../components/ZDS/codeEditor";
   import ContentLeft from "../components/XT/ContentLeft";
+  import ContentHeader from "../components/XT/ContentHeader";
+  import IndexHeader from "../components/DL/IndexHeader";
   export default {
-    components: {ContentLeft, CodeEditor, commoncss,ButRadioGroup, ButElRow, ButFadeInOut},
+    components: {IndexHeader, ContentLeft, CodeEditor, commoncss,ButRadioGroup, ButElRow, ButFadeInOut},
     data(){
       return{
 
@@ -48,19 +53,32 @@
 
 <style lang="scss">
   .container{
-      margin-top:50px;
-      height: 100%;
+     display: flex;
+    flex-direction: column;
+    .XT{
+      width:100%;
+      padding:0 8%;
+      box-sizing: border-box;
+      background:gray;
+      float: left;
+    }
+    .elm{
       display: flex;
-    .main{
-      width: 90%;
-      background: #e6e3e3;
-      li{
-        border-bottom: 1px solid black;
-        padding-top: 20px ;
+      .left{
+        /*float: left;*/
+      }
+      .main{
+        width: 90%;
+        background: #e6e3e3;
+        li{
+          border-bottom: 1px solid black;
+          padding-top: 20px ;
+
+        }
 
       }
-
     }
+
   }
 
 
