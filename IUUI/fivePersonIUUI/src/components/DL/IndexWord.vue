@@ -22,31 +22,33 @@
 
   }
   .word h3{
-    font-size:30px;
+    font-size:40px;
     color:white;
-    font-weight:100;
     text-align:center;
+    font-weight:500;
 
 
   }
   .word p{
     color:white;
-    font-size:10px;
+    font-size:14px;
     text-align:center;
-    margin:10px 0;
+    margin:10px 30px;
   }
   .word a{
     display:flex;
     width:120px;
-    height:50px;
     margin:0 auto;
     border:1px solid white;
-    line-height:50px;
+    line-height:60px;
+    padding:0 15px;
+    color:white;
+    font-size:20px;
   }
   .word a img{
     width:20px;
     height:20px;
-    margin:16px 5px 0 10px;
+    margin:20px 5px 0 10px;
   }
   .word a:hover{
     border-radius:18px;

@@ -25,12 +25,10 @@
 <style lang="scss" scoped>
   .XT{
     width:100%;
-    padding:0 8%;
     box-sizing: border-box;
-    background:gray;
+    background:#7dc499;
   }
   .all{
-    margin-top:5px;
     overflow: hidden;
     .list{
       position:absolute;

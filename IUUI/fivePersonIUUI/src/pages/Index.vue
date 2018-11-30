@@ -26,6 +26,6 @@
     width:100%;
     height:100%;
     background :url(../../static/images/dl2.gif) no-repeat;
-    background-size:100%;
+    background-size:100% 150%;
   }
 </style>
