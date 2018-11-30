@@ -1,22 +1,23 @@
 @charset "utf-8";
- /*CSS Document*/
+/* CSS Document */
 body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
     margin:0;
     padding:0;
 }
 html,body{
     height:100%;
-    background:#f3f3f3;
 }
 html{
     font-size:26.67vw;
 }
-body{font-family:"微软雅黑",Arial;
+body{
+    font-family:"微软雅黑",Arial;
+    background: white;
     /*display:flex;*/
     /*flex-direction:column;*/
-    background:white;
 }
 a{
+    display: block;
     text-decoration:none;
 }
 ul,ol{
@@ -26,4 +27,15 @@ img{
     border:none;
     display:block;
 }
+span{
+    display: block;
+}
+i{
+  display: block;
+}
+
+
+
+
+
 
