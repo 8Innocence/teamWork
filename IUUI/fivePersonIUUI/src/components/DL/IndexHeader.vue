@@ -3,7 +3,7 @@
     <h1>iuui</h1>
     <input type="text" placeholder="查找" id="txt">
     <div><a href="javascript:;" @click="go()">文档</a></div>
-    <div><a href="javascript:;">实例</a></div>
+    <div><a href="javascript:;" @click="goz()">实例</a></div>
     <div class="show">
       <a href="javascript:;" @click="gott()">模板 </a>
     </div>
@@ -21,9 +21,12 @@
             gocc(){
               this.$router.push({path:"cc"})
             },
-          gott(){
-            this.$router.push({path:"model"})
-          }
+            gott(){
+              this.$router.push({path:"model"})
+            },
+            goz(){
+              this.$router.push({path:"element"})
+            }
         }
     }
 </script>

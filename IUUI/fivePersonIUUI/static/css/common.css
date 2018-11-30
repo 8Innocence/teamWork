@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*css document*/
+body, div, p, ul, ol, li, dl, dt, dd, table, tr, td, th, form, h1, h2, h3, h4, h5, h6, input, textarea, fieldset, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "微软雅黑", Arial;
+}
+
+ul, ol {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}

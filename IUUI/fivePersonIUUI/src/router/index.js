@@ -8,6 +8,8 @@ import CC from "../pages/cc"
 import ccTeam from "../components/CC/ccTeam"
 import ccTeams from "../components/CC/ccTeams"
 import ttmodel from "../pages/model"
+import element  from "../pages/element"
+
 
 
 
@@ -34,5 +36,6 @@ export default new Router({
       ]
     },
     {path: '/model', name: 'model',component:ttmodel},
+    {path: '/element', name: 'model',component:element},
   ]
 })
