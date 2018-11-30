@@ -43,7 +43,7 @@
   .last{
     width:100%;
     height:300px;
-    background:#efefef;
+    background:white;
     display:flex;
     justify-content: space-around;
 
@@ -67,7 +67,7 @@
     width:120px;
     line-height:50px;
     text-align:center;
-    background:#efefef;
+    background:white;
     margin:20px auto;
   }
 </style>

@@ -50,10 +50,9 @@
 
 <style scoped>
   .content-left{
-    width:16%;
+    width:18%;
     height: 100%;
     border-right:1px solid #eeeeee;
-    /*padding-left:105px;   朱东升10.30 暂时关闭视同bootstrap*/
     overflow-y: auto;
   }
   .side-nav{
@@ -67,6 +66,8 @@
     color: #333333;
     padding-left:10px;
     cursor: pointer;
+    padding-left:30px;
+
   }
   .side-nav li span{
     font-size:11px;

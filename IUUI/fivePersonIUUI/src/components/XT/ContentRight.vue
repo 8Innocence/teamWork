@@ -126,7 +126,8 @@
 
 <style scoped>
   .content-right{
-    width: 66%;
+    padding-left:50px;
+    width: 70%;
     height: 100%;
     margin:0 20px;
     /*margin:10px 20px;*/

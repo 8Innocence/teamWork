@@ -55,6 +55,7 @@
 .max{
   height:100%;
   width:100%;
+
 }
 .el-menu{
   border-right:none;
@@ -64,7 +65,7 @@
     width:20%;
     height:100%;
     -webkit-box-sizing: border-box;
-    padding-left:50px;
+
     /*overflow-y:scroll;*/
   }
   .content_nav h2{
