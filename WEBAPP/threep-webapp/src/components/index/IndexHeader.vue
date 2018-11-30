@@ -1,85 +1,71 @@
 <template>
   <header>
-    <div class="headerone">
-      <i class = "iconfont icon-richscan_icon"></i>
-      <img src="img/logo.gif" alt="">
-      <i class="iconfont icon-web__erweima"></i>
-      <i class = "iconfont icon-iconfontzhizuobiaozhun023110 "></i>
-    </div>
-    <div class="headertwo">
-      <a href="">
-        <i class = "iconfont icon-sousuo"></i>
-        <p>搜索商品 品牌</p>
-        <i class="iconfont icon-xiangji"></i>
-      </a>
-    </div>
+    <a href="javascript:;"><i class="iconfont icon-icon-test"></i><span></span>全部分类</a>
+    <div></div>
+    <a href="javascript:;" @click="toggle()"><i class="iconfont icon-more"></i></a>
+
+    <ul v-if="show">
+      <li></li>
+      <li><a href="javascript:;">供应大厅</a></li>
+      <li><a href="javascript:;">采购大厅</a></li>
+      <li><a href="javascript:;">行情大厅</a></li>
+      <li><a href="javascript:;">惠农咨询</a></li>
+      <li><a href="javascript:;">惠农学堂</a></li>
+    </ul>
   </header>
 </template>
 
 <script>
     export default {
-        name: "IndexHeader"
+        name: "IndexHeader",
+      data(){
+          return{
+            show:false
+          }
+      },
+      methods:{
+          toggle(){
+            this.show=!this.show
+          }
+      }
     }
 </script>
 
 <style scoped>
-  header{
-    width:100%;
-    height:0.9rem;
-    background:#ff478e;
+header{
+  height:.43rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  header a{
+    font-size:.12rem;
+    color: #ababab;
+    text-align: center;
+    line-height: .16rem;
+  }
+  header a i{
+    color: #ac0;
+  }
+  header div{
+    width: 2.45rem;
+  }
+  header ul{
+    width:1rem;
+    top: .3rem;
+    right: .1rem;
+    position: absolute;
+  }
+  header ul li a{
+    border-bottom:1px solid #c8c7cc;
+    line-height:.4rem;
+    height:.4rem;
+    background-color:#f7f7f7;
+  }
+  header ul li:last-child a{
+    border-bottom:0;
+  }
 
-  }
-  .headerone{
-    width:100%;
-    height:0.47rem;
-    background:#8b8ee3;
-    display:flex;
-    -webkit-align-items: center;
-  }
-  .headerone img{
-    width:1.11rem;
-    height:0.2rem;
-    margin-left:1.2rem;
-    margin-right:0.5rem;
-  }
-  .iconfont{
-    color:white;
-    font-size:0.2rem;
-    font-weight:600;
-  }
-  .icon-richscan_icon{
-    margin-left:0.1rem;
-  }
-  .icon-web__erweima{
-    margin-right:0.15rem;
-  }
-  .headertwo{
-    width:100%;
-    height:0.43rem;
-    background:#8b8ee3;
-  }
-  .headertwo a{
-    display:block;
-    width:3.55rem;
-    height:0.33rem;
-    background:white;
-    margin:0 auto;
-    display:flex;
-    -webkit-align-items: center;
-  }
-  .headertwo a p{
-    font-size:0.12rem;
-    color:#aaaaaa;
-    text-indent:0.1rem;
-  }
-  .headertwo a .iconfont{
-    font-size:0.2rem;
-    color:#aaaaaa;
-  }
-  .icon-sousuo{
-    margin-left:0.1rem;
-  }
-  .icon-xiangji{
-    margin-left:2rem;
-  }
+
+
 </style>
