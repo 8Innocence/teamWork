@@ -51,12 +51,9 @@
 <style scoped>
   .content-left{
     width:18%;
-    height: 100%;
-    border-right:1px solid #eeeeee;
-    overflow-y: auto;
   }
+
   .side-nav{
-    margin-top:15px;
   }
   .side-nav li{
     height:38px;
@@ -66,7 +63,6 @@
     color: #333333;
     padding-left:10px;
     cursor: pointer;
-    padding-left:30px;
 
   }
   .side-nav li span{

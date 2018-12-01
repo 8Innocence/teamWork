@@ -2,8 +2,8 @@
   <div>
   <index-header class="XT"></index-header>
   <div class="content">
-    <content-left></content-left>
-    <router-view></router-view>
+    <content-left class="left"></content-left>
+    <router-view class="right"></router-view>
   </div>
   </div>
 </template>
@@ -26,9 +26,19 @@
   box-sizing: border-box;
   background:#7dc499;
 }
+.left{
+  width:18%;
+  height: 100%;
+  border-right:1px solid #eeeeee;
+  overflow-y: auto;
+}
+
+.right{
+  flex:1;
+}
 .content{
-  margin-top:50px;
   height: 100%;
   display: flex;
+  width:100%;
 }
 </style>

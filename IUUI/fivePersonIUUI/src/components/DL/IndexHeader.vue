@@ -40,11 +40,17 @@
     height:80px;
     margin:0 auto;
     padding:0 5%;
+
   }
+  a{
+    text-decoration:none;
+
+  }
+
   header h1{
     float:left;
     color:white;
-    line-height:80px;
+    line-height:70px;
   }
   #txt{
     margin:18px 300px 0 80px;

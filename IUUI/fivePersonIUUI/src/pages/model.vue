@@ -29,16 +29,16 @@
     background:#7dc499;
   }
   .all{
-    overflow: hidden;
+    width:100%;
+    position:relative;
+
     .list{
       position:absolute;
+      top:70px;
       left:50px;
+    }
+    .list:hover{
       z-index:2;
     }
-    .slideshow{
-      position:relative;
-      margin-top:50px;
-    }
-
   }
 </style>
