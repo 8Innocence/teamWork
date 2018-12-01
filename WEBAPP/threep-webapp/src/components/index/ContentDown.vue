@@ -7,10 +7,10 @@
         <li><span>资讯</span><a href="">冬季果园想要稳产，做好这些综合防冻措施，减少自然环境破坏</a></li>
       </ul>
     </div>
-    <div class="product-search">
-      <input type="text" placeholder="请输入关键字">
-      <a href="##">搜索</a>
-    </div>
+    <!--<div class="product-search">-->
+      <!--<input type="text" placeholder="请输入关键字">-->
+      <!--<a href="##">搜索</a>-->
+    <!--</div>-->
     <div class="product-intr">
       <p><span>惠农优选</span>一手货源 一件代发<a href="##">更多</a></p>
       <ul>
