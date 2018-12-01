@@ -14,45 +14,45 @@
   import Swiper from 'swiper/dist/js/swiper';
     export default {
         name: "ContentSwiper",
-      data () {
-        return {
-          msg: 'Welcome to Your Vue.js App'
-        }
-      },
-      mounted(){
-        new Swiper('.swiper-container', {
-          loop:true,
-          spaceBetween: 30,
-          centeredSlides: true,
-          autoplay: {
-            delay: 1500,
-            disableOnInteraction: false,
-          },
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-        })
-      }
-    }
-</script>
+  data () {
+  return {
+    msg: 'Welcome to Your Vue.js App'
+  }
+  },
+  mounted(){
+  new Swiper('.swiper-container', {
+  loop:true,
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  })
+  }
+  }
+  </script>
 
-<style scoped>
+    <style scoped>
   @import'../../assets/css/swiper.min.css';
-.index-swiper{
-  height:2rem;
-}
-.swiper-container {
-  width: 100%;
-  height: 100%;
+  .index-swiper{
+    height:2rem;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
 
-}
-.swiper-slide {
-  text-align: center;
+  }
+  .swiper-slide {
+    text-align: center;
   font-size: 18px;
   background: #fff;
 

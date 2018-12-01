@@ -5,49 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732570ac-ca82-474a-8856-a1f1b9ef56bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/threep-webapp/src/components/information/InformationContent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/src/components/information/InformationHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/src/components/information/InformationNav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/src/components/information/InformationSwiper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/src/components/information/Massage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/src/page/Information.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/egg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/egg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/egg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/foo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/foo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/foo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/ground1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/ground2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/ground3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/pig1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/pig2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/pig3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/pig4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/swi1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/swi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/swi3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/swi4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/swi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/ver1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/ver2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threep-webapp/static/images/ver3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/carts/CartsFooter.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/carts/CartsHeader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/carts/CartsLi.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/carts/CartsNav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/carts/CartsSection.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/list/ListHeader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/list/ListLi.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/list/ListNav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/list/ListSection.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineBao.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineChaoshi.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineDingdan.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineFu.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineGongju.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineHeader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineHongbao.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineNav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineSection.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/mine/MineWuliu.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/money/MoneyBanner.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/money/MoneyFoot.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/money/MoneyHeader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/money/MoneyMoney.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/money/MoneyNav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/money/MoneyOver.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/money/MoneySection.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgBanner.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgHeader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgLast.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgLike.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgNav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgRun.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgSay.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgSection.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgShop.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgSwiper.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/msg/MsgThing.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/page/Carts.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/page/List.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threep-webapp/src/page/Market.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/demo_fontclass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/demo_symbol.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/demo_unicode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/font_944175_05jn2x1ae3ir/iconfont1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/.idea/runConfigurations/bin_www.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/.idea/tmall-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/bin/www" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/data/cars.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/data/shoplist.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/data/shops.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/routes/carts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/routes/shoplist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/routes/shops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/views/error.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/threep-server/views/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threep-webapp/src/assets/css/iconfont1.css" beforeDir="false" afterPath="$PROJECT_DIR$/threep-webapp/src/assets/css/iconfont1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threep-webapp/src/assets/font1/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/threep-webapp/src/assets/font1/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threep-webapp/src/assets/font1/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/threep-webapp/src/assets/font1/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threep-webapp/src/assets/font1/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/threep-webapp/src/assets/font1/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threep-webapp/src/assets/font1/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/threep-webapp/src/assets/font1/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threep-webapp/src/components/index/ContentSwiper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/threep-webapp/src/components/index/ContentSwiper.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/threep-webapp/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/threep-webapp/src/router/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -121,56 +145,67 @@
     <session id="-1820327577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="9" />
+          <entry key="css" value="10" />
           <entry key="gif" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="5" />
-          <entry key="vue" value="37" />
+          <entry key="jpg" value="4" />
+          <entry key="js" value="7" />
+          <entry key="vue" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="9" />
+          <entry key="CSS" value="10" />
           <entry key="HTML" value="2" />
-          <entry key="Image" value="1" />
-          <entry key="JavaScript" value="5" />
-          <entry key="Vue.js" value="37" />
+          <entry key="Image" value="5" />
+          <entry key="JavaScript" value="7" />
+          <entry key="Vue.js" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="40" />
+          <entry key="css" value="52" />
           <entry key="html" value="7" />
-          <entry key="js" value="36" />
-          <entry key="vue" value="4658" />
+          <entry key="js" value="92" />
+          <entry key="vue" value="7492" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="40" />
+          <entry key="CSS" value="52" />
           <entry key="HTML" value="7" />
-          <entry key="JavaScript" value="36" />
-          <entry key="Vue.js" value="4658" />
+          <entry key="JavaScript" value="92" />
+          <entry key="Vue.js" value="7492" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/IndexHeader.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+            <state relative-caret-position="116">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/information/InformationHeader.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1363">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -191,13 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tmall-server/app.js" />
-        <option value="$PROJECT_DIR$/tmall-webapp/src/commons/cars.js" />
-        <option value="$PROJECT_DIR$/tmall-webapp/src/api/listApi.js" />
-        <option value="$PROJECT_DIR$/tmall-webapp/src/components/list/ListHeader.vue" />
-        <option value="$PROJECT_DIR$/tmall-server/data/shoplist.json" />
-        <option value="$PROJECT_DIR$/tmall-webapp/src/components/market/MarketLastone.vue" />
-        <option value="$PROJECT_DIR$/tmall-webapp/src/components/list/ListLi.vue" />
         <option value="$PROJECT_DIR$/tmall-webapp/src/components/msg/MsgHeader.vue" />
         <option value="$PROJECT_DIR$/tmall-webapp/src/components/mine/MineDingdan.vue" />
         <option value="$PROJECT_DIR$/tmall-webapp/src/components/mine/MineBao.vue" />
@@ -227,7 +255,6 @@
         <option value="$PROJECT_DIR$/tmall-webapp/src/router/index.js" />
         <option value="$PROJECT_DIR$/tmall-webapp/src/page/Payok.vue" />
         <option value="$PROJECT_DIR$/tmall-webapp/src/components/money/MoneyOver.vue" />
-        <option value="$PROJECT_DIR$/threep-webapp/src/router/index.js" />
         <option value="$PROJECT_DIR$/threep-webapp/index.html" />
         <option value="$PROJECT_DIR$/threep-webapp/src/assets/css/iconfont.css" />
         <option value="$PROJECT_DIR$/threep-webapp/src/components/index/IndexSwiper.vue" />
@@ -235,13 +262,21 @@
         <option value="$PROJECT_DIR$/threep-webapp/src/components/index/IndexContent.vue" />
         <option value="$PROJECT_DIR$/threep-webapp/src/assets/css/public.css" />
         <option value="$PROJECT_DIR$/threep-webapp/src/components/index/IndexFooter.vue" />
-        <option value="$PROJECT_DIR$/threep-webapp/src/components/index/Content.vue" />
         <option value="$PROJECT_DIR$/threep-webapp/src/components/index/ContentSearch.vue" />
         <option value="$PROJECT_DIR$/threep-webapp/src/page/Index.vue" />
-        <option value="$PROJECT_DIR$/threep-webapp/src/assets/css/iconfont1.css" />
         <option value="$PROJECT_DIR$/threep-webapp/src/components/index/ContentDown.vue" />
-        <option value="$PROJECT_DIR$/threep-webapp/src/components/index/ContentSwiper.vue" />
         <option value="$PROJECT_DIR$/threep-webapp/src/components/index/IndexHeader.vue" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/assets/css/iconfont1.css" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/router/index.js" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/components/information/InformationNav.vue" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/components/index/ContentSwiper.vue" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/components/information/InformationSwiper.vue" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/components/index/zdsxx.vue" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/components/index/Content.vue" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/components/information/Massage.vue" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/page/Information.vue" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/components/information/InformationContent.vue" />
+        <option value="$PROJECT_DIR$/threep-webapp/src/components/information/InformationHeader.vue" />
       </list>
     </option>
   </component>
@@ -256,15 +291,15 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/download/threep-server/package.json" />
+      <path value="$PROJECT_DIR$/threep-server/package.json" />
       <path value="$PROJECT_DIR$/threep-webapp/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="307" />
-    <option name="y" value="255" />
-    <option name="width" value="664" />
-    <option name="height" value="434" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1053" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -272,7 +307,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,10 +340,19 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WEBAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEBAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="threep-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="information" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,16 +364,16 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\teamWork\WEBAPP\threep-webapp\static\images" />
-      <recent name="F:\TMALL\tmall-webapp\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\teamWork\WEBAPP\threep-webapp\static\images" />
       <recent name="E:\project\teamWork\WEBAPP\threep-webapp\static\img" />
       <recent name="E:\project\teamWork\WEBAPP\threep-webapp\src\assets\css" />
       <recent name="E:\project\teamWork\WEBAPP\threep-webapp\src\page" />
       <recent name="F:\TMALL\tmall-webapp\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\teamWork\WEBAPP\threep-webapp\static\images" />
+      <recent name="F:\TMALL\tmall-webapp\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,17 +433,18 @@
       <workItem from="1543395818194" duration="12000" />
       <workItem from="1543541866123" duration="443000" />
       <workItem from="1543543106178" duration="398000" />
-      <workItem from="1543544859399" duration="21934000" />
+      <workItem from="1543544859399" duration="40058000" />
+      <workItem from="1543625595233" duration="6448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93014000" />
+    <option name="totallyTimeSpent" value="117586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21130952" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25223213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -412,7 +456,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27625203" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1825525" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -446,53 +490,38 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/threep-webapp/src/components/index/ContentDown.vue</url>
           <line>176</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/threep-webapp/src/components/index/ContentDown.vue</url>
           <line>107</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/threep-webapp/src/components/index/ContentDown.vue</url>
-          <line>110</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/threep-webapp/src/components/index/ContentDown.vue</url>
           <line>120</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/threep-webapp/src/components/index/ContentDown.vue</url>
           <line>163</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/threep-webapp/src/components/index/IndexHeader.vue</url>
           <line>34</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/threep-webapp/src/page/Information.vue</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tmall-server/app.js" />
-    <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineWuliu.vue" />
-    <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineDingdan.vue" />
-    <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineGongju.vue" />
-    <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineBao.vue" />
-    <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineList.vue" />
-    <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineHongbao.vue" />
-    <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineFu.vue" />
-    <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineChaoshi.vue" />
-    <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineNav.vue" />
     <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineSection.vue" />
     <entry file="file://$PROJECT_DIR$/tmall-webapp/src/components/mine/MineHeader.vue" />
     <entry file="file://$PROJECT_DIR$/tmall-webapp/src/page/Mine.vue" />
@@ -517,41 +546,15 @@
     <entry file="file://$PROJECT_DIR$/tmall-webapp/src/page/Payok.vue" />
     <entry file="file://$PROJECT_DIR$/tmall-webapp/src/router/index.js" />
     <entry file="file://$PROJECT_DIR$/tmall-server/bin/www" />
-    <entry file="file://$PROJECT_DIR$/threep-webapp/static/img/ul9.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/IndexNav.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-424" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/static/img/ul9.gif" />
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/IndexNav.vue" />
     <entry file="file://$PROJECT_DIR$/threep-webapp/src/assets/css/shopmsg.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threep-webapp/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threep-webapp/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threep-webapp/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/threep-webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,34 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/IndexFooter.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="26" column="33" selection-start-line="25" selection-start-column="23" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="n#footer#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/Content.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threep-webapp/src/assets/css/iconfont.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threep-webapp/src/assets/css/iconfont1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -605,40 +584,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/IndexFooter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/assets/css/iconfont1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/information/InformationNav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/ContentDown.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="90" column="3" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
+        <state relative-caret-position="446">
+          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
           <folding>
             <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/ContentSwiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="45" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/zdsxx.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/static/images/2018112510045420804278020d3e13f8-80e4-43c1-8950-b0e94ddd489b1_(2).jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/static/images/201811301035202080427802630ba11c-eb7c-4b77-8a18-0c9b0a0ceae09.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/static/images/201811251337582080427802871ceebf-7956-4fc8-95ec-6203533df433_(1).jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/threep-webapp/src/page/Index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="116">
+          <caret line="22" selection-start-line="22" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="e#164#209#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/ContentSwiper.vue">
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/information/InformationSwiper.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="609">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/information/Massage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
           <folding>
-            <element signature="n#script#0;n#!!top" />
+            <element signature="e#364#2631#0" />
+            <element signature="e#457#771#0" />
+            <element signature="e#564#734#0" />
+            <element signature="e#1133#1445#0" />
+            <element signature="e#1467#1781#0" />
+            <element signature="e#1517#1695#0" />
+            <element signature="e#1797#2110#0" />
+            <element signature="e#2097#2409#0" />
+            <element signature="e#895#1054#0" />
+            <element signature="e#1084#1152#0" />
+            <element signature="e#1197#1268#0" />
+            <element signature="e#1294#1339#0" />
+            <element signature="e#1368#1397#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/Content.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/page/Information.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#126#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/information/InformationContent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#176#222#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/index/IndexHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="116">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threep-webapp/src/components/information/InformationHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1363">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
