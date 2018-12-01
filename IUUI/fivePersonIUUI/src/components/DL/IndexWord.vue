@@ -16,7 +16,7 @@
 <style scoped>
   .word{
     width:100%;
-    height:150px;
+    height:200px;
     /* background:pink; */
     margin-bottom:50px;
 
@@ -36,14 +36,15 @@
     margin:10px 30px;
   }
   .word a{
+    height:60px;
     display:flex;
-    width:120px;
+    width:140px;
     margin:0 auto;
     border:1px solid white;
     line-height:60px;
     padding:0 15px;
     color:white;
-    font-size:20px;
+    font-size:15px;
   }
   .word a img{
     width:20px;

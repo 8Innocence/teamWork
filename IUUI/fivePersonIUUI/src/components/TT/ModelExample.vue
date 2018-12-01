@@ -55,11 +55,12 @@
 <style lang="scss" scoped>
   .ModelExample{
     h2{
-      width:100px;
+      width:200px;
       line-height:70px;
       background:white;
       /*position:absolute;*/
       margin:0 auto;
+      text-align: center;
 
     }
     .line{

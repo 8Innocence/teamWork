@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <index-header class="XT"></index-header>
+  <div class="all">
+  <index-header class="XT"></index-header>
     <div class="elm">
       <content-left class="left"></content-left>
       <ul class="main">
@@ -8,6 +8,7 @@
         <!--<textarea id="text">-->
         <!---->
         <!--</textarea>-->
+
         <li @click="change">
           <but-el-row></but-el-row>
         </li>
@@ -35,7 +36,6 @@
   import ButRadioGroup from "../components/ZDS/butRadioGroup";
   import CodeEditor from "../components/ZDS/codeEditor";
   import ContentLeft from "../components/XT/ContentLeft";
-  import ContentHeader from "../components/XT/ContentHeader";
   import IndexHeader from "../components/DL/IndexHeader";
   export default {
     components: {IndexHeader, ContentLeft, CodeEditor, commoncss,ButRadioGroup, ButElRow, ButFadeInOut},
@@ -52,23 +52,22 @@
 </script>
 
 <style lang="scss">
-  .container{
-     display: flex;
+  .all{
+    display:flex;
     flex-direction: column;
     .XT{
       width:100%;
-      padding:0 8%;
       box-sizing: border-box;
-      background:gray;
-      float: left;
+      background:#7dc499;
     }
     .elm{
       display: flex;
+      width:100%;
       .left{
         /*float: left;*/
       }
       .main{
-        width: 90%;
+        flex:1;
         background: #e6e3e3;
         li{
           border-bottom: 1px solid black;

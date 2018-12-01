@@ -1,7 +1,7 @@
 <template>
     <div class="ModelList">
       <ul class="">
-        <li class="first" @mousrover="Slip"><a href="#">模板分类</a></li>
+        <li class="first" @mousrover="Slip"><a class="first" href="#">模板分类</a></li>
         <li><a href="#">webapp</a></li>
         <li><a href="#">后台管理</a></li>
         <li><a href="#">更多</a></li>
@@ -33,9 +33,13 @@
 
         a{
           color:black;
+          text-decoration-line: none;
         }
 
 
+      }
+      :not(.first):hover{
+        background:#eee;
       }
       .first{
         background:#7dc499;
