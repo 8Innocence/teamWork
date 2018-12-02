@@ -2,7 +2,7 @@
   <div class="all">
   <index-header class="XT"></index-header>
     <div class="elm">
-      <content-left class="left"></content-left>
+      <cc-nav :list="lists"></cc-nav>
       <ul class="main">
         <li style="padding-top: 0">
           <p>一、登录组件</p>
@@ -86,6 +86,7 @@
   import CodeEditor from "../components/ZDS/codeEditor";
   import ContentLeft from "../components/XT/ContentLeft";
   import IndexHeader from "../components/DL/IndexHeader";
+
   import Minelogin from "../components/ZDS/MineLogin";
   import Wdlcs from "../components/ZDS/wdlcs";
   import Zhedie from "../components/ZDS/zhedie";
@@ -128,6 +129,7 @@
       return{
         data: generateData(),
         value1: [1, 4]
+
       }
     },
     methods: {
@@ -150,9 +152,6 @@
     .elm{
       display: flex;
       width:100%;
-      .left{
-        /*float: left;*/
-      }
       .main{
         flex:1;
         background: #e6e3e3;
