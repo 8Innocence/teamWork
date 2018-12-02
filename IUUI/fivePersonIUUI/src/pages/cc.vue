@@ -2,7 +2,6 @@
   <div>
   <index-header class="XT"></index-header>
     <div class="content">
-      <cc-nav></cc-nav>
       <!--<cc-team></cc-team>-->
       <section>
         <router-view></router-view>
