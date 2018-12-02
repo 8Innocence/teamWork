@@ -2,7 +2,7 @@
   <div>
   <index-header class="XT"></index-header>
   <div class="content">
-    <content-left class="left"></content-left>
+    <cc-nav class="left"></cc-nav>
     <router-view class="right"></router-view>
   </div>
   </div>
@@ -13,10 +13,11 @@
     import ContentLeft from "../components/XT/ContentLeft";
   import IndexHeader from "../components/DL/IndexHeader";
   import ContentRight from "../components/XT/ContentRight";
+  import CcNav from "../components/CC/ccNav";
   // import ContentHeader from "../components/XT/ContentHeader";
     export default {
         name: "Content",
-      components: { ContentRight,IndexHeader,  ContentLeft,Public},
+      components: {CcNav, ContentRight,IndexHeader,  ContentLeft,Public},
     }
 </script>
 
@@ -27,7 +28,6 @@
   background:#7dc499;
 }
 .left{
-  width:18%;
   height: 100%;
   border-right:1px solid #eeeeee;
   overflow-y: auto;

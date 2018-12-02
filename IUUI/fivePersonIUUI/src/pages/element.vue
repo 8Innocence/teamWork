@@ -2,7 +2,7 @@
   <div class="all">
   <index-header class="XT"></index-header>
     <div class="elm">
-      <content-left class="left"></content-left>
+      <cc-nav :list="lists"></cc-nav>
       <ul class="main">
         <!--文本编辑器区域-->
         <!--<textarea id="text">-->
@@ -37,10 +37,11 @@
   import CodeEditor from "../components/ZDS/codeEditor";
   import ContentLeft from "../components/XT/ContentLeft";
   import IndexHeader from "../components/DL/IndexHeader";
+  import CcNav from "../components/CC/ccNav";
   export default {
-    components: {IndexHeader, ContentLeft, CodeEditor, commoncss,ButRadioGroup, ButElRow, ButFadeInOut},
-    data(){
-      return{
+    components: {CcNav, IndexHeader, ContentLeft, CodeEditor, commoncss,ButRadioGroup, ButElRow, ButFadeInOut},
+    data() {
+      return {
 
       }
     },
@@ -63,9 +64,6 @@
     .elm{
       display: flex;
       width:100%;
-      .left{
-        /*float: left;*/
-      }
       .main{
         flex:1;
         background: #e6e3e3;

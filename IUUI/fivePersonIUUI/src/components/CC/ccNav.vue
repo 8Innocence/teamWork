@@ -7,8 +7,10 @@
                 <el-submenu index="1">
                   <template slot="title">导航一</template>
                   <el-menu-item-group class="el-menu">
-                    <router-link to="/cc" tag="a"><el-menu-item index="1-1">选项1</el-menu-item></router-link>
-                    <router-link to="/cc/ccTeams" tag="a"><el-menu-item index="1-2">选项2</el-menu-item></router-link>
+                    <!--<router-link to="/cc" tag="a"></router-link>-->
+                    <el-menu-item index="1-1">选项1</el-menu-item>
+                    <!--<router-link to="/cc/ccTeams" tag="a"></router-link>-->
+                      <el-menu-item index="1-2" >选项2</el-menu-item>
                     <el-menu-item index="1-3">选项3</el-menu-item>
                     <el-menu-item index="1-4">选项4</el-menu-item>
                   </el-menu-item-group>
@@ -31,6 +33,15 @@
                     <el-menu-item index="3-4">选项4</el-menu-item>
                   </el-menu-item-group>
                 </el-submenu>
+                <el-submenu index="4">
+                  <template slot="title">导航四</template>
+                  <el-menu-item-group>
+                    <el-menu-item index="4-1">选项1</el-menu-item>
+                    <el-menu-item index="4-2">选项2</el-menu-item>
+                    <el-menu-item index="4-3">选项3</el-menu-item>
+                    <el-menu-item index="4-4">选项4</el-menu-item>
+                  </el-menu-item-group>
+                </el-submenu>
               </el-menu>
             </el-aside>
           </el-container>
@@ -43,6 +54,7 @@
     export default {
         name: "ccNav",
         components:{Public},
+        // props:[list],
         methods:{
             toggle:function(){
               this.isShow=!this.isShow
@@ -59,6 +71,12 @@
 }
 .el-menu{
   border-right:none;
+}
+el-menu-item:hover{
+  background:#eee;
+}
+el-menu-item:target{
+  border-left:4px solid #7dc499;
 }
   /*content_nav*/
   .content_nav{
