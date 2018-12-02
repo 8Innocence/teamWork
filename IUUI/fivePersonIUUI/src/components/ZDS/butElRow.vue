@@ -1,6 +1,6 @@
 <template>
   <div class="el-row">
-    <el-row>
+    <el-row style="padding: 20px 0;margin-left: 50px">
       <el-button>默认按钮</el-button>
       <el-button type="primary">主要按钮</el-button>
       <el-button type="success">成功按钮</el-button>

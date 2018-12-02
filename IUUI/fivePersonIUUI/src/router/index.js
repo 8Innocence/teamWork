@@ -9,6 +9,9 @@ import ccTeam from "../components/CC/ccTeam"
 import ccTeams from "../components/CC/ccTeams"
 import ttmodel from "../pages/model"
 import element  from "../pages/element"
+import ZHU  from "../pages/zdstestpage"
+
+
 
 
 
@@ -37,5 +40,6 @@ export default new Router({
     },
     {path: '/model', name: 'model',component:ttmodel},
     {path: '/element', name: 'model',component:element},
+    {path: '/zds', name: 'model',component:ZHU},
   ]
 })

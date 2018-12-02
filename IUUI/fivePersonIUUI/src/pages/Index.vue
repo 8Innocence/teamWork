@@ -1,13 +1,12 @@
 <template>
   <div class="all">
     <div class="background">
-
-    <index-header></index-header>
+      <index-header></index-header>
       <index-box></index-box>
       <index-word></index-word>
     </div>
-    <index-last></index-last>
-    <index-footer></index-footer>
+      <index-last></index-last>
+      <index-footer></index-footer>
   </div>
 </template>
 
@@ -18,9 +17,10 @@
     import IndexWord from "../components/DL/IndexWord";
     import IndexLast from "../components/DL/IndexLast";
     import IndexFooter from "../components/DL/IndexFooter";
+    // import Minelogin from "../components/ZDS/MineLogin";
     export default {
         name: "Index",
-      components: {IndexFooter, IndexLast, IndexWord, IndexBox, IndexHeader,Index}
+      components: { IndexFooter, IndexLast, IndexWord, IndexBox, IndexHeader,Index}
     }
 </script>
 
