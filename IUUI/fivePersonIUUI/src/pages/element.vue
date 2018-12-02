@@ -2,7 +2,7 @@
   <div class="all">
   <index-header class="XT"></index-header>
     <div class="elm">
-      <cc-nav :list="lists"></cc-nav>
+      <content-left class="left"></content-left>
       <ul class="main">
         <li style="padding-top: 0">
           <p>一、登录组件</p>
@@ -149,12 +149,17 @@
       box-sizing: border-box;
       background:#7dc499;
     }
+    .left{
+      width:30%;
+    }
     .elm{
       display: flex;
       width:100%;
       .main{
         flex:1;
         background: #e6e3e3;
+        padding:20px 30px;
+
         li{
           border-bottom: 1px solid black;
           padding-top: 20px ;

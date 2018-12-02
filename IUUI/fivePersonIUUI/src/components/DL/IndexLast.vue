@@ -2,32 +2,23 @@
   <div class="last">
     <div class="one">
       <div class="onea">
-        <p>返璞归真</p>
+        <p class="title">我们的目的</p>
       </div>
-      <p>身处在前端社区的繁荣之下，我们都在有意或无意地追逐。
-        而 layui 偏偏回望当初，奔赴在返璞归真的漫漫征途，
-        自信并勇敢着，追寻于原生态的书写指令
-        ，试图<br/>以最简单的方式诠释高效。
+      <p class="p-0">这是一个面向前端的高级框架，高效的开发是我们最终的目的，如果你是一个有抱负的程序员，我们的建议是iuui。
       </p>
     </div>
     <div class="one">
       <div class="onea">
-        <p>返璞归真</p>
+        <p class="title">我们的方向</p>
       </div>
-      <p>身处在前端社区的繁荣之下，我们都在有意或无意地追逐。
-        而 layui 偏偏回望当初，奔赴在返璞归真的漫漫征途，
-        自信并勇敢着，追寻于原生态的书写指令
-        ，试图<br/>以最简单的方式诠释高效。
+      <p class="p-0">优秀的人就要用最优秀的web前端框架，我们的建议是iuui。
       </p>
     </div>
     <div class="one">
       <div class="onea">
-        <p class="title">返璞归真</p>
+        <p class="title">我们的能力</p>
       </div>
-      <p class="p-0">身处在前端社区的繁荣之下，我们都在有意或无意地追逐。
-        而 layui 偏偏回望当初，奔赴在返璞归真的漫漫征途，
-        自信并勇敢着，追寻于原生态的书写指令
-        ，试图<br/>以最简单的方式诠释高效。
+      <p class="p-0">身处在前端激烈竞争社会，只有高效的，高质量的作品才可以脱颖而出，我们的建议是iuui。
       </p>
     </div>
   </div>
@@ -41,6 +32,7 @@
 
 <style scoped>
   .last{
+    margin-top:25px;
     width:100%;
     height:300px;
     background:white;
@@ -50,12 +42,13 @@
   }
   .one{
     width:30%;
-    height:250px;
+    height:200px;
     border:1px solid #d3d3d3;
-    padding:10px 20px 20px 20px;
+    padding:10px 30px 20px 30px;
     margin-top:50px;
     border-radius:10px;
-    background:#7dc499;
+    background:url("../../../static/images/index_bg.png") no-repeat;
+    background-size:100% 100%;
   }
   .one p{
     text-align:center;
@@ -78,6 +71,7 @@
   }
   .title{
     border-radius: 5px;
-
+    font-weight: 600;
+    font-size:20px;
   }
 </style>
