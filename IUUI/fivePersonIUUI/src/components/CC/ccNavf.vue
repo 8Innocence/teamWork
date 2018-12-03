@@ -19,8 +19,7 @@
             <template slot="title" class="title1">导航栏</template>
             <el-menu-item-group>
               <el-menu-item index="2-1">左侧导航栏<span>可折叠</span></el-menu-item>
-              <el-menu-item index="2-2">导航垂直菜单<span>可折叠</span></el-menu-item>
-              <el-menu-item index="2-3">折叠导航<span>动画效果</span></el-menu-item>
+              <el-menu-item index="2-2">折叠导航<span>动画效果</span></el-menu-item>
             </el-menu-item-group>
           </el-submenu>
           <el-submenu index="3">

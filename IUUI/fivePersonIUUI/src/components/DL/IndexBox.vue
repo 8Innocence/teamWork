@@ -12,6 +12,7 @@
     <a href="#"></a>
     <a href="#"></a>
     <a href="#"></a>
+    <a href="#">IUUI</a>
   </div>
 </template>
 
@@ -25,17 +26,25 @@
   .box{
     width:200px;
     height:200px;
-    margin:60px auto;
+    margin:50px auto;
     transform-style:preserve-3d;
-    animation:lft 10s infinite linear;
+    animation:lft 5s infinite linear;
     /*border-radius:50%;*/
+  }
+  .box a{
+    border-radius: 15px;
+    border:5px solid rgba(122,122,122,0.6);
+    font-size: 50px;
+    font-weight:600;
+    text-align: center;
+    color:#000000;
   }
   .box a:nth-child(-n+6){
     display:block;
     width:200px;
     height:200px;
     opacity:.6;
-    background:pink;
+    background:rgba(130,130,130,0.4);
     position:absolute;
     left:0;
     top:0;
@@ -47,7 +56,7 @@
     width:100px;
     height:100px;
     opacity:.4;
-    background:#ac0;
+    background:rgba(70,70,70,0.5);
     position:absolute;
     left:50px;
     top:50px;
@@ -97,6 +106,13 @@
   .box a:nth-child(12){
     transform:rotateX(90deg) translateZ(-50px)
   }
+  .box a:nth-child(13){
+    transform:rotateX(90deg) translateZ(0px);
+    background:none;
+    border:0;
+    line-height:100px;
+  }
+
   .box:hover{
     animation-play-state:paused;
   }

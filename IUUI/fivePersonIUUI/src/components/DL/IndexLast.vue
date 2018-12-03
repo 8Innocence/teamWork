@@ -33,36 +33,33 @@
 <style scoped>
   .last{
     margin-top:25px;
-    width:100%;
-    height:300px;
-    background:white;
     display:flex;
     justify-content: space-around;
+    flex:1;
+    display:flex;
+    flex-direction: column;
 
   }
   .one{
-    width:30%;
-    height:200px;
-    border:1px solid #d3d3d3;
+    flex:1;
+    width:100%;
+    height:150px;
     padding:10px 30px 20px 30px;
     margin-top:50px;
-    border-radius:10px;
-    background:url("../../../static/images/index_bg.png") no-repeat;
+    background:url("../../../static/images/index_last.png") no-repeat;
     background-size:100% 100%;
+    text-align: center;
   }
   .one p{
     text-align:center;
   }
   .onea{
     height:50px;
-    background:pink;
-    background:url(../../../static/images/dl4.gif) repeat-x center;
   }
   .onea p{
     width:120px;
     line-height:50px;
     text-align:center;
-    background:white;
     margin:10px auto;
 
   }
@@ -73,5 +70,6 @@
     border-radius: 5px;
     font-weight: 600;
     font-size:20px;
+    line-height:20px;
   }
 </style>

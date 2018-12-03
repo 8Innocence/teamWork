@@ -15,7 +15,6 @@
   footer{
     width:100%;
     height:100px;
-    background:white;
   }
   footer p{
     text-align:center;

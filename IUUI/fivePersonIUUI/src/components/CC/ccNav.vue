@@ -9,10 +9,6 @@
                   <el-menu-item-group class="el-menu">
                     <!--<router-link to="/cc" tag="a"></router-link>-->
                     <el-menu-item index="1-1">开始使用</el-menu-item>
-                    <!--<router-link to="/cc/ccTeams" tag="a"></router-link>-->
-                      <el-menu-item index="1-2" >安装方法</el-menu-item>
-                    <!--<el-menu-item index="1-3">选项3</el-menu-item>-->
-                    <!--<el-menu-item index="1-4">选项4</el-menu-item>-->
                   </el-menu-item-group>
                 </el-submenu>
                 <el-submenu index="2">
@@ -36,6 +32,10 @@
                     <el-menu-item index="2-15">click组件</el-menu-item>
                   </el-menu-item-group>
                 </el-submenu>
+                <el-submenu index="3">
+                  <template slot="title" class="title1">关于我们</template>
+                </el-submenu>
+
                 <!--<el-submenu index="3">-->
                   <!--<template slot="title">导航三</template>-->
                   <!--<el-menu-item-group>-->
@@ -77,18 +77,16 @@
 
 <style scoped>
 .max{
-  height:100%;
   width:100%;
-
+  height:100%;
+  border-bottom: 1px solid #eee;
 }
 .el-menu{
   border-right:none;
+
 }
 el-menu-item:hover{
   background:#eee;
-}
-el-menu-item:target{
-  border-left:4px solid #7dc499;
 }
   /*content_nav*/
   .content_nav{

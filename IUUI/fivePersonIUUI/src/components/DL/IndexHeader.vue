@@ -1,7 +1,7 @@
 <template>
   <header>
-    <h1 @click="goind()">iuui</h1>
-    <input type="text" placeholder="Search" id="txt">
+    <h1 @click="goind()" style="font-size:50px;font-family: Algerian">IUUI</h1>
+    <input type="text" placeholder="Search..." id="txt">
     <div><a href="javascript:;" @click="go()">文档</a></div>
     <div><a href="javascript:;" @click="goz()">实例</a></div>
     <div class="show">
@@ -46,11 +46,17 @@
     text-decoration:none;
 
   }
+  .logo{
+    width:auto;
+    height:100px;
+  }
 
   header h1{
     float:left;
     color:white;
-    line-height:70px;
+    line-height:80px;
+    text-shadow:2px 4px 5px #eee;
+
   }
   #txt{
     margin:18px 300px 0 80px;
