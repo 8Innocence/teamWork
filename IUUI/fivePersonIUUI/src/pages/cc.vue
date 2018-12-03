@@ -1,12 +1,7 @@
 <template>
-  <div>
-  <index-header class="XT"></index-header>
-    <div class="content">
-      <!--<cc-team></cc-team>-->
-      <section>
-        <router-view></router-view>
-      </section>
-    </div>
+  <div class="cc" style="display:flex;height:100%;flex-direction:column">
+    <index-header class="XT"></index-header>
+    <introduce></introduce>
   </div>
 </template>
 
@@ -14,9 +9,10 @@
     import CcNav from "../components/CC/ccNav";
     import CcTeam from "../components/CC/ccTeam";
     import IndexHeader from "../components/DL/IndexHeader";
+    import Introduce from "./introduce";
     export default {
         name: "cc",
-      components: {IndexHeader, CcTeam, CcNav}
+      components: {Introduce, IndexHeader, CcTeam, CcNav}
     }
 </script>
 
@@ -25,16 +21,6 @@
     width:100%;
     box-sizing: border-box;
     background:#7dc499;
-  }
-  .content{
-    display:flex;
-    width:100%;
-    height:100%;
-    margin-top:10px;
-  }
-  section{
-    flex:1;
-    width:100%;
   }
 
 </style>

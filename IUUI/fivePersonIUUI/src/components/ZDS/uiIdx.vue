@@ -2,11 +2,11 @@
   <div class="all">
     <div class="content">
       <div class="box">
-        <img src="../../../static/images/page1_0.png" alt=""/>
-        <img src="../../../static/images/page1_1.png" alt=""/>
-        <img src="../../../static/images/page1_2.png" alt=""/>
-        <img src="../../../static/images/page1_1.png" alt=""/>
-        <img src="../../../static/images/page1_2.png" alt=""/>
+        <img src="../../../static/images/timg.gif" alt="" style="border-radius:50%;border:1px solid red;"/>
+        <img src="../../../static/images/AHONG.png" alt="" style="border-radius:50%;border:1px solid red;"/>
+        <img src="../../../static/images/cc.jpg" alt="" style="border-radius:50%;border:1px solid red;"/>
+        <img src="../../../static/images/wdl.png" alt="" style="border-radius:50%;border:1px solid red;"/>
+        <img src="../../../static/images/xt.jpg" alt="" style="border-radius:50%;border:1px solid red;"/>
       </div>
     </div>
   </div>
@@ -28,11 +28,11 @@
     width:600px;
     height:530px;
     margin:0px auto;
-    background:  #191c2c;
+    /*background:  #191c2c;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    background:url(../../../static/images/page1_3.jpg) no-repeat center top;
+    /*background:url(../../../static/images/page1_3.jpg) no-repeat center top;*/
     background-size:100%;
   }
   .content{
