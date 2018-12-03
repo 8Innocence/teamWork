@@ -12,6 +12,37 @@ import element  from "../pages/element"
 import ZHU  from "../pages/zdstestpage"
 
 
+import MineLogin from "../components/ZDS/MineLogin"
+import idxBox from "../components/ZDS/idxBox"
+import butfadeinout from "../components/ZDS/butRadioGroup"
+import butelrow from "../components/ZDS/butElRow"
+import wdlcs from "../components/ZDS/wdlcs"
+
+import zhedie from "../components/ZDS/zhedie"
+import biaoqian from "../components/ZDS/biaoqian"
+import jiazai from "../components/ZDS/jiazai"
+import jinggao from "../components/ZDS/jinggao"
+import xxts from "../components/ZDS/xxts"
+
+import zmd from "../components/ZDS/zmd"
+import butradiogroup from "../components/ZDS/butRadioGroup"
+import compom from "../components/ZDS/compom"
+import dataandtime from "../components/ZDS/DataAndTime"
+import form from "../components/ZDS/Form"
+
+import notification from "../components/ZDS/notification"
+import menu from "../components/CC/Menu"
+import med from "../components/ZDS/med"
+
+
+import code from "../components/CC/Code"
+import infinitescroll from "../components/CC/InfiniteScroll"
+import rollnotice from "../components/CC/RollNotice"
+import scrollnav from "../components/CC/ScrollNav"
+import sendcode from "../components/CC/SendCode"
+import introduce from "../pages/introduce"
+
+
 
 
 
@@ -21,6 +52,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {path: '/', name: 'Index',component:Index},
+    {path: '/introduce', name: 'introduce',component:introduce},
     {
       path:"/content",
       component:Content,
@@ -39,7 +71,37 @@ export default new Router({
       ]
     },
     {path: '/model', name: 'model',component:ttmodel},
-    {path: '/element', name: 'model',component:element},
+    {path: '/element', name: 'model',component:element,
+      children:[
+        {path:"",component:MineLogin},
+        {path:"/MineLogin",component:MineLogin},
+        {path:"/idxBox",component:idxBox},
+        {path:"/butfadeinout",component:butfadeinout},
+        {path:"/butelrow",component:butelrow},
+        {path:"/wdlcs",component:wdlcs},
+
+        {path:"/zhedie",component:zhedie},
+        {path:"/biaoqian",component:biaoqian},
+        {path:"/jiazai",component:jiazai},
+        {path:"/jinggao",component:jinggao},
+        {path:"/xxts",component:xxts},
+
+        {path:"/zmd",component:zmd},
+        {path:"/butradiogroup",component:butradiogroup},
+        {path:"/compom",component:compom},
+        {path:"/dataandtime",component:dataandtime},
+        {path:"/form",component:form},
+
+        {path:"/notification",component:notification},
+        {path:"/menu",component:menu},
+        {path:"/med",component:med},
+
+        {path:"/code",component:code},
+        {path:"/infinitescroll",component:infinitescroll},
+        {path:"/rollnotice",component:rollnotice},
+        {path:"/scrollnav",component:scrollnav},
+        {path:"/sendcode",component:sendcode},
+      ]},
     {path: '/zds', name: 'model',component:ZHU},
   ]
 })
