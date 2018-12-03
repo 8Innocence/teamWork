@@ -2,7 +2,7 @@
   <div class="all">
   <index-header class="XT"></index-header>
     <div class="elm">
-      <content-left class="left"></content-left>
+      <cc-navf></cc-navf>
       <ul class="main">
         <li style="padding-top: 0">
           <p>一、登录组件</p>
@@ -100,8 +100,10 @@
   import DataAndTime from "../components/ZDS/DataAndTime";
   import Form from "../components/ZDS/Form";
   import Notification from "../components/ZDS/notification";
+  import CcNavf from "../components/CC/ccNavf";
   export default {
     components: {
+      CcNavf,
       Notification,
       Form,
       DataAndTime,
@@ -150,7 +152,7 @@
       background:#7dc499;
     }
     .left{
-      width:30%;
+      width:18%;
     }
     .elm{
       display: flex;
