@@ -1,0 +1,118 @@
+<template>
+
+  <div class="content_nav">
+    <el-container style="height:100%;" class="max">
+      <el-aside width="100%">
+        <el-menu :default-openeds="['1', '3']">
+          <el-submenu index="1">
+            <template slot="title" class="title1">布局</template>
+            <el-menu-item-group class="el-menu">
+              <!--<router-link to="/cc" tag="a"></router-link>-->
+              <el-menu-item index="1-1">后台登录页面组件</el-menu-item>
+              <!--<router-link to="/cc/ccTeams" tag="a"></router-link>-->
+              <el-menu-item index="1-2" >3D动画组建<span>基础支撑</span></el-menu-item>
+              <!--<el-menu-item index="1-3">选项3</el-menu-item>-->
+              <!--<el-menu-item index="1-4">选项4</el-menu-item>-->
+            </el-menu-item-group>
+          </el-submenu>
+          <el-submenu index="2">
+            <template slot="title" class="title1">导航栏</template>
+            <el-menu-item-group>
+              <el-menu-item index="2-1">左侧导航栏<span>可折叠</span></el-menu-item>
+              <el-menu-item index="2-2">导航垂直菜单<span>可折叠</span></el-menu-item>
+              <el-menu-item index="2-3">折叠导航<span>动画效果</span></el-menu-item>
+            </el-menu-item-group>
+          </el-submenu>
+          <el-submenu index="3">
+          <template slot="title">Frame(框)</template>
+          <el-menu-item-group>
+          <el-menu-item index="3-1">穿梭框组件</el-menu-item>
+          <el-menu-item index="3-2">折叠框</el-menu-item>
+          <el-menu-item index="3-3">弹出框</el-menu-item>
+          <el-menu-item index="3-4">提示框</el-menu-item>
+          </el-menu-item-group>
+          </el-submenu>
+          <el-submenu index="4">
+          <template slot="title">路由</template>
+          <el-menu-item-group>
+          <el-menu-item index="4-1">标签组件</el-menu-item>
+          </el-menu-item-group>
+          </el-submenu>
+          <el-submenu index="5">
+            <template slot="title">From</template>
+            <el-menu-item-group>
+              <el-menu-item index="5-1">时间日期类组件</el-menu-item>
+              <el-menu-item index="5-2">表单类组件</el-menu-item>
+            </el-menu-item-group>
+          </el-submenu>
+          <el-submenu index="6">
+            <template slot="title">其他</template>
+            <el-menu-item-group>
+              <el-menu-item index="6-1">延迟加载组件</el-menu-item>
+              <el-menu-item index="6-2">警告类组件</el-menu-item>
+              <el-menu-item index="6-3">step组件</el-menu-item>
+              <el-menu-item index="6-4">HTML片段</el-menu-item>
+              <el-menu-item index="6-5">click激活</el-menu-item>
+            </el-menu-item-group>
+          </el-submenu>
+
+        </el-menu>
+      </el-aside>
+    </el-container>
+  </div>
+
+</template>
+
+<script>
+  import Public from "../../assets/css/index.css"
+  export default {
+    name: "ccNavf",
+    components:{Public},
+    // props:[list],
+    methods:{
+      toggle:function(){
+        this.isShow=!this.isShow
+      }
+    }
+  }
+</script>
+
+<style scoped>
+  .max{
+    height:100%;
+    width:100%;
+
+  }
+  .el-menu{
+    border-right:none;
+  }
+  /*content_nav*/
+  .content_nav{
+    width:20%;
+    height:100%;
+    -webkit-box-sizing: border-box;
+
+    /*overflow-y:scroll;*/
+  }
+  .title1{
+    background:#eee;
+  }
+  .content_nav h2{
+    margin-top:20px;
+  }
+  .basics h3{
+    margin:20px 0;
+  }
+  .basics ul li{
+    margin-top:10px;
+    cursor:pointer;
+  }
+  .basics a{
+    cursor:pointer;
+  }
+  span{
+    font-size:11px;
+    color: #bbbbbb;
+    margin-left:8px;
+    line-height:100% }
+</style>

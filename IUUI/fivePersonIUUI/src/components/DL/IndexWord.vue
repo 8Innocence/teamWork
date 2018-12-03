@@ -1,6 +1,6 @@
 <template>
   <div class="word">
-    <h3>经典模块化前端框架</h3>
+    <h3>你认为最高效的前端框架</h3>
     <p>
         由职业前端精英团队在短时间内为您定制的高效率高质量的UI框架，面向所有层次，无论你是高级，中级，还是初级，都会让你有前所未有感官的体验。</p>
     <a href="https://www.layui.com/">  <img src="../../../static/images/dl3.gif" alt="">立即下载</a>

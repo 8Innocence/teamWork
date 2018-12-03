@@ -29,12 +29,13 @@
 }
 .left{
   height: 100%;
+  width:18%;
   border-right:1px solid #eeeeee;
   overflow-y: auto;
 }
 
 .right{
-  flex:1;
+  flex:70%;
 }
 .content{
   height: 100%;
