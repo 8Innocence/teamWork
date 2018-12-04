@@ -25,15 +25,15 @@
         return {
           list: [
             {label: '今日特惠'},
-            {label: '烟灶推荐'},
-            {label: '净水饮水推荐'},
-            {label: '洗碗机推荐'},
-            {label: '电热推荐'},
-            {label: '燃热推荐'},
-            {label: '消毒柜推荐'},
-            {label: '嵌入式推荐'},
-            {label: '商用电器'},
-            {label: '活动说明'}
+            {label: '小麦'},
+            {label: '玉米'},
+            {label: '花生'},
+            {label: '有机猪'},
+            {label: '水果'},
+            {label: '蔬菜'},
+            {label: '营养鸡'},
+            {label: '纯狗肉'},
+            {label: '白天鹅'}
           ]
         }
       }

@@ -33,6 +33,11 @@
               <router-link to="/scrollnav" tag="li">
                 <el-menu-item index="2-4">导航定位<span>动画效果</span></el-menu-item>
               </router-link>
+              <el-menu-item index="2-1">左侧导航栏<span>可折叠</span></el-menu-item>
+              <el-menu-item index="2-2">折叠导航<span>动画效果</span></el-menu-item>
+
+
+            
             </el-menu-item-group>
           </el-submenu>
           <el-submenu index="3">

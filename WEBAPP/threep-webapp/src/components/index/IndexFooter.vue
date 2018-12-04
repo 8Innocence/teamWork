@@ -1,7 +1,7 @@
 <template>
     <footer>
       <ul>
-        <li  @click="goindex()"><i class="iconfont icon-shinonggongban-"></i><span>首页</span></li>
+        <li  @click="goindex(index)" class="aa" :class="{red:changeRed==index}"><i class="iconfont icon-shinonggongban-"></i><span>首页</span></li>
         <li  @click="gocc()"><i class="iconfont icon-nongchanpinjiagechaxun"></i><span>分类</span></li>
         <li  @click="golist()"><i class="iconfont icon-classification_icon_"></i><span>列表</span></li>
         <li  @click="gocarts()"><i class="iconfont icon-pinpainongchanpin"></i><span>购物车</span></li>
@@ -13,16 +13,24 @@
 <script>
     export default {
         name: "IndexFooter",
+      data(){
+        return{
+          changeRed:-1
+        }
+      },
         methods:{
-          golist(){
+          golist(index){
+            // this.changeRed=index;
             this.$router.push({
               path:"/List"
             })
           },
-          goindex(){
+          goindex(index){
             this.$router.push({
               path:"/"
             })
+            this.changeRed=index;
+
           },
           gocarts(){
             this.$router.push({
@@ -44,8 +52,14 @@
 </script>
 
 <style scoped>
+  .aa{
+
+  }
+  .red{
+    color:red
+  }
   .iconfont{
-    color:#ac0;
+    color:#666;
   }
   footer ul{
     display: flex;
@@ -54,6 +68,7 @@
     align-items: center;
     text-align: center;
     border-top:1px solid #ababab;
+    background:white;
   }
   footer ul li span{
     font-size:.12rem;

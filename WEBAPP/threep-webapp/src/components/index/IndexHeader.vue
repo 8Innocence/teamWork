@@ -1,9 +1,10 @@
 <template>
   <header>
-    <a href="javascript:;"><i class="iconfont icon-icon-test"></i><span></span>全部分类</a>
+    <a href="javascript:;"><i class="iconfont icon-icon-test"></i><span>全部分类</span></a>
     <div class="aa">
         <a href="javascript:;">
-          <p>搜索商品 品牌</p>
+          <input type="text" placeholder="搜索商品 品牌">
+          <!--<p>搜索商品 品牌</p>-->
         </a>
     </div>
     <a href="javascript:;" @click="toggle()"><i class="iconfont icon-more"></i></a>
@@ -49,7 +50,12 @@
     display:flex;
     -webkit-align-items: center;
   }
-  header a p{
+.aa a input{
+  outline:none;
+}
+  header a input{
+    border:0;
+    line-height:.25rem;
     text-indent:0.1rem;
     font-size:0.12rem;
     color:#a6a6a6;
@@ -61,15 +67,17 @@ header{
   justify-content: space-around;
   align-items: center;
   background:#ac0;
+  padding: .03rem 0;
 }
   header a{
-    font-size:.12rem;
+    font-size:.08rem;
     color: white;
     text-align: center;
     line-height: .16rem;
   }
   header a i{
     color: white;
+    margin-top:.05rem;
   }
   header div{
     width: 2.45rem;
@@ -88,10 +96,20 @@ header{
     color:#ac0;
     background-color:#f7f7f7;
   }
+  span{
+    display:block;
+    margin-top:.05rem;
+  }
   header ul li:last-child a{
     border-bottom:0;
   }
-
+.iconfont{
+  font-size:.25rem;
+}
+  .icon-more{
+    font-size:.2rem;
+    margin-right:.04rem;
+  }
 
 
 </style>

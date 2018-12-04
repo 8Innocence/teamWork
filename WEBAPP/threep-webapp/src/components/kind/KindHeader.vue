@@ -12,7 +12,8 @@
   header{
     width:100%;
     height:.44rem;
-    font-size:.14rem;
+    font-size:.16rem;
+    font-weight:600;
     color:#fff;
     display:flex;
     align-items:center;

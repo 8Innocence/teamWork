@@ -167,9 +167,7 @@
         li{
           border-bottom: 1px solid black;
           padding-top: 20px ;
-
         }
-
       }
     }
 
