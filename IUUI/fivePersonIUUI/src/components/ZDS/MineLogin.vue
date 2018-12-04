@@ -305,6 +305,7 @@
   }
   .top_4{
     top: 290px;
+    line-height:0;
   }
   .login_btn{
     width: 70%;

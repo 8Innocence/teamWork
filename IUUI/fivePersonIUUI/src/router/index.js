@@ -43,14 +43,23 @@ import sendcode from "../components/CC/SendCode"
 import introduce from "../pages/introduce"
 
 
-
-
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
+import circle from "../components/XT/bingxing"
+import radar from "../components/XT/leida"
+import parallel from "../components/XT/pingixng"
+import data from "../components/XT/rili"
+import sun from "../components/XT/xuri"
+import gauge from "../components/XT/yibiaopan"
+import graph from "../components/XT/zhexian1"
+import bar from "../components/XT/zhuzhuang"
 
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+
     {path: '/', name: 'Index',component:Index},
     {path: '/introduce', name: 'introduce',component:introduce},
     {
@@ -101,6 +110,16 @@ export default new Router({
         {path:"/rollnotice",component:rollnotice},
         {path:"/scrollnav",component:scrollnav},
         {path:"/sendcode",component:sendcode},
+
+
+        {path:"/circle",component:circle},
+        {path:"/radar",component:radar},
+        {path:"/parallel",component:parallel},
+        {path:"/data",component:data},
+        {path:"/sun",component:sun},
+        {path:"/gauge",component:gauge},
+        {path:"/graph",component:graph},
+        {path:"/bar",component:bar},
       ]},
     {path: '/zds', name: 'model',component:ZHU},
   ]

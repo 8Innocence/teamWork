@@ -1,7 +1,7 @@
 <template>
   <footer>
-    <p>© 2018 layui.com MIT license</p>
-    <p>案例 支持 GitHub 码云 公众号 赣ICP备13006272号-2</p>
+    <p>https://github.com/8Innocence/teamWork</p>
+    <p>案例 支持 GitHub</p>
   </footer>
 </template>
 
@@ -15,6 +15,8 @@
   footer{
     width:100%;
     height:100px;
+    background:white;
+    margin-top:30px;
   }
   footer p{
     text-align:center;
