@@ -7,22 +7,24 @@
           <h2>OUR TEAM</h2>
           <h4>Innocence</h4>
           <p>welcome to use IUUI</p>
+          <img src="../../static/images/logo.png" class="logo" >
+
         </div>
       </li>
       <li>
         <div class="inner">
           <p><img src="../../static/images/timg.gif" alt="" ></p>
-          <h2>朱东升</h2>
-          <h4>架构师</h4>
+          <h2>George</h2>
+          <h4>FD</h4>
           <p>核心业务：vue-router/vue-loader</p>
-          <h4>Xi'An China</h4>
+          <h4>California,USA </h4>
         </div>
       </li>
       <li>
         <div class="inner">
           <p><img src="../../static/images/AHONG.png" alt="" ></p>
-          <h2>拓田</h2>
-          <h4>项目经理</h4>
+          <h2>AHONG</h2>
+          <h4>PM</h4>
           <p>核心业务：主持编制项目管理实施规划，并对项目目标进行系统管理</p>
           <h4>Xi'An China</h4>
         </div>
@@ -31,16 +33,16 @@
         <div class="inner">
           <p><img src="../../static/images/wdl.png" alt="" ></p>
           <h2>Max</h2>
-          <h4>设计师</h4>
+          <h4>UI</h4>
           <p>核心业务：负责软件界面的美术设计、创意工作和制作工作</p>
           <h4>Ding'Xi China</h4>
         </div>
       </li>
       <li>
         <div class="inner">
-          <p><img src="../../static/images/xt.jpg" alt="" ></p>
-          <h2>邢涛</h2>
-          <h4>产品经理</h4>
+          <p><img src="../../static/images/xt.jpg"></p>
+          <h2>Buff</h2>
+          <h4>PM</h4>
           <p>核心业务：需求分析，把控需求，跟进产品开发</p>
           <h4>Xian'Yang China</h4>
         </div>
@@ -48,8 +50,8 @@
       <li>
         <div class="inner">
           <p><img src="../../static/images/cc.jpg" alt="" ></p>
-          <h2>王聪</h2>
-          <h4>高级前端</h4>
+          <h2>Delete</h2>
+          <h4>PG</h4>
           <p>核心业务：负责建设前端系统架构、核心业务系统的界面交互开发</p>
         </div>
       </li>
@@ -71,10 +73,14 @@
      }
 
 </script>
-
+white
 <style scoped>
-  .body{background-color: #313131;overflow:hidden;height:100%;}
-  body{background-color: #313131;overflow:hidden;}
+  .body{
+    /*background-color:#7dc499;*/
+    overflow:hidden;height:100%;}
+  body{
+    /*background-color: #313131;*/
+    overflow:hidden;}
   .rotating-slider ul.slides li:nth-of-type(1){background: #3498db;}
   .rotating-slider ul.slides li:nth-of-type(2){background: #ac0;}
   .rotating-slider ul.slides li:nth-of-type(3){background: #e74c3c;}
@@ -88,6 +94,13 @@
   .inner img{
     width:100px;
     height:100px;
-    margin:0 auto;border-radius:50%;
+    margin:0 auto;
+    border-radius:50%;
+  }
+  .inner .logo{
+    margin-top:30px;
+    border-radius: 0;
+    width:200px;
+    height:auto;
   }
 </style>

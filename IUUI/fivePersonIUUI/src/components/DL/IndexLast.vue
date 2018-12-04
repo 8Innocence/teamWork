@@ -43,9 +43,10 @@
   .one{
     flex:1;
     width:100%;
-    height:150px;
-    padding:10px 30px 20px 30px;
-    margin-top:50px;
+    height:130px;
+    /*padding:10px 30px 20px 30px;*/
+    padding:20px;
+    /*margin-top:50px;*/
     background:url("../../../static/images/index_last.png") no-repeat;
     background-size:100% 100%;
     text-align: center;

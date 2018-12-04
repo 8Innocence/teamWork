@@ -58,6 +58,10 @@
     text-shadow:2px 4px 5px #eee;
 
   }
+  img{
+    width:120px;
+    height:48px;
+  }
   #txt{
     margin:18px 300px 0 80px;
     padding-left:15px;

@@ -30,13 +30,16 @@
 
 <style lang="scss" scoped>
   html,body{
-    height:1600px;
+    height:1430px;
+    background:white;
   }
   .all{
     display:flex;
     flex-direction: column;
     width:100%;
-    height:1600px;
+    height:1430px;
+    background:white;
+
     /*background-size:100% 150%;*/
 
     /*background :url(../../static/images/dl2.gif) no-repeat;*/
@@ -50,6 +53,7 @@
   .plug{
     padding-top:30px;
     display:flex;
+    background: white;
     /*background-image: linear-gradient(to left bottom, #F2E3C6 0%, #A7A1A5 100%);*/
 
     index-clean{
