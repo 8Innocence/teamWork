@@ -82,25 +82,54 @@
             </el-menu-item-group>
           </el-submenu>
           <el-submenu index="7">
+            <template slot="title">echarts</template>
+            <el-menu-item-group>
+             <router-link to="/circle" tag="li">
+               <el-menu-item index="7-1">饼图</el-menu-item>
+             </router-link>
+             <router-link to="/bar" tag="li">
+               <el-menu-item index="7-2">柱状图</el-menu-item>
+             </router-link>
+             <router-link to="/graph" tag="li">
+               <el-menu-item index="7-3">折线图</el-menu-item>
+             </router-link>
+             <router-link to="/gauge" tag="li">
+               <el-menu-item index="7-4">仪表盘</el-menu-item>
+             </router-link>
+             <router-link to="/sun" tag="li">
+               <el-menu-item index="7-5">旭日图</el-menu-item>
+             </router-link>
+             <router-link to="/parallel" tag="li">
+               <el-menu-item index="7-6">平行</el-menu-item>
+             </router-link>
+             <router-link to="/data" tag="li">
+               <el-menu-item index="7-7">日历</el-menu-item>
+             </router-link>
+             <router-link to="/radar" tag="li">
+               <el-menu-item index="7-8">雷达图</el-menu-item>
+             </router-link>
+            </el-menu-item-group>
+          </el-submenu>
+          <el-submenu index="8">
             <template slot="title">其他</template>
             <el-menu-item-group>
               <router-link to="/jinggao" tag="li">
-                <el-menu-item index="7-1">警告类组件</el-menu-item>
+                <el-menu-item index="8-1">警告类组件</el-menu-item>
               </router-link>
               <router-link to="/zmd" tag="li">
-                <el-menu-item index="7-2">step组件</el-menu-item>
+                <el-menu-item index="8-2">step组件</el-menu-item>
               </router-link>
               <router-link to="/notification" tag="li">
-                <el-menu-item index="7-3">HTML片段</el-menu-item>
+                <el-menu-item index="8-3">HTML片段</el-menu-item>
               </router-link>
               <router-link to="/med" tag="li">
-                <el-menu-item index="7-4">文本编辑器</el-menu-item>
+                <el-menu-item index="8-4">文本编辑器</el-menu-item>
               </router-link>
               <router-link to="/code" tag="li">
-                <el-menu-item index="7-5">获取验证码</el-menu-item>
+                <el-menu-item index="8-5">获取验证码</el-menu-item>
               </router-link>
               <router-link to="/sendcode" tag="li">
-                <el-menu-item index="7-6">评分</el-menu-item>
+                <el-menu-item index="8-6">评分</el-menu-item>
               </router-link>
             </el-menu-item-group>
           </el-submenu>
