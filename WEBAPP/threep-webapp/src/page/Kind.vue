@@ -21,7 +21,11 @@
 </script>
 
 <style scoped>
+  html,body{
+    background:#eee;
+  }
   .bigbox{
+    background:#fafafa;
     height:100%;
     display:flex;
     flex-direction:column;

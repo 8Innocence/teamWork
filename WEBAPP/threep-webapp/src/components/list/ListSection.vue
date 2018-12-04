@@ -19,6 +19,7 @@
     width:100%;
     flex:1;
     overflow-y: auto;
+    background:#f8f8f8;
   }
   section ul{
     width:95%;

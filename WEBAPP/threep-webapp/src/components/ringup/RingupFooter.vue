@@ -49,6 +49,7 @@
   .app img {
     width: .46rem;
     height: .46rem;
+    border-radius: 50%;
   }
   .privacy{
     font-size:.12rem;

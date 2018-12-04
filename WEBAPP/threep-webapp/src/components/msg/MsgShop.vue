@@ -3,7 +3,7 @@
     <img src="../../../static/images/9E4CFCA204ChRkRlr1aY2AMPtWAACbjsVzRXg199.png" alt="">
     <div><p>农产品直销店</p><img src="../../../static/img/msgc8.gif" alt=""></div>
     <span @click="golist()">全部宝贝</span>
-    <span>进店逛逛</span>
+    <span @click="gofen()">进店逛逛</span>
   </div>
 </template>
 
@@ -13,6 +13,9 @@
         methods:{
           golist(){
             this.$router.push("/List")
+          },
+          gofen(){
+            this.$router.push("/Kind")
           }
         }
     }

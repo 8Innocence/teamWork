@@ -9,12 +9,12 @@
 </template>
 
 <script>
-  import Public from "../assets/css/index.css"
+  import Public from "../assets/css/public.css"
     import ContentLeft from "../components/XT/ContentLeft";
   import IndexHeader from "../components/DL/IndexHeader";
   import ContentRight from "../components/XT/ContentRight";
   import CcNav from "../components/CC/ccNav";
-  // import ContentHeader from "../components/XT/ContentHeader";
+
     export default {
         name: "Content",
       components: {CcNav, ContentRight,IndexHeader,  ContentLeft,Public},

@@ -36,18 +36,21 @@
 
 <style scoped>
   .content ul{
-    width:.66rem;
+    width:1rem;
     height:100%;
-    padding:0 .14rem;
     display:flex;
     flex-direction: column;
     overflow-y:auto;
   }
   .content ul li{
-    font-size:.15rem;
-    color:#808080;
-    height:.52rem;
-    line-height:.52rem;
-    border-bottom:2px solid #e2e2e2;
+    font-size:.12rem;
+    color:black;
+    height:.40rem;
+    line-height:.40rem;
+    border-right:.01rem solid #e2e2e2;
+    border-bottom:.01rem solid #e2e2e2;
+    text-align:center;
+    background:white;
+
   }
 </style>

@@ -3,7 +3,7 @@
     <i class = "iconfont icon-richscan_icon"></i>
     <a href="javascript:;">
       <i class = "iconfont icon-sousuo"></i>
-      <p>搜索商品 品牌</p>
+      <input type="text" placeholder="搜索商品 品牌"/>
       <i class="iconfont icon-xiangji"></i>
     </a>
     <i class="iconfont icon-web__erweima"></i>
@@ -49,9 +49,15 @@
   header .icon-xiangji{
     color:#a6a6a6;
   }
-  header a p{
+  header a input{
+    box-sizing: border-box;
+    width:100%;
+    height:97%;
+    border:0;
+    outline: none;
     font-size:0.12rem;
     color:#a6a6a6;
-    margin-right:1.3rem;
+    margin-left:.1rem;
   }
+
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="IndexContent">
     <div class="content-massage">
-      <h6>你是大哥</h6>
+      <h6>掌上农资</h6>
       <ul>
         <li><span>资讯</span><a href="">芝麻认证操作指南</a></li>
         <li><span>资讯</span><a href="">冬季果园想要稳产，做好这些综合防冻措施，减少自然环境破坏</a></li>

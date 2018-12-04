@@ -21,7 +21,7 @@
       <li>
         <div class="inner">
           <p><img src="../../static/images/AHONG.png" alt="" ></p>
-          <h2>拓田</h2>
+          <h2>AHONG</h2>
           <h4>项目经理</h4>
           <p>核心业务：主持编制项目管理实施规划，并对项目目标进行系统管理</p>
           <h4>Xi'An China</h4>
@@ -65,9 +65,9 @@
     export default {
         name: "introduce",
         components:{rotaing,Slide},
-      mounted(){
-        $('.rotating-slider').rotatingSlider();
-    }
+        mounted(){
+          $('.rotating-slider').rotatingSlider();
+      }
      }
 
 </script>
