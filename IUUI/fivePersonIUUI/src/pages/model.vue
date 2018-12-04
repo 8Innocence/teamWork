@@ -6,8 +6,10 @@
       <model-list class="list"></model-list>
       <model-slideshow class="slideshow"></model-slideshow>
       <model-example></model-example>
+      <model-examplef></model-examplef>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -17,12 +19,14 @@
     import ModelList from "../components/TT/ModelList";
     import ModelSeek from "../components/TT/ModelSeek";
     import IndexHeader from "../components/DL/IndexHeader";
+  import ModelExamplef from "../components/TT/ModelExamplef";
     export default {
         name: "model",
-      components: {IndexHeader, ModelExample, ModelSlideshow, ModelList, ModelSeek,Reset}
+      components: {ModelExamplef, IndexHeader, ModelExample, ModelSlideshow, ModelList, ModelSeek,Reset},
     }
 </script>
 <style lang="scss" scoped>
+  html,body{background:white}
   .XT{
     width:100%;
     box-sizing: border-box;
@@ -31,6 +35,7 @@
   .all{
     width:100%;
     position:relative;
+    background:white;
 
     .list{
       position:absolute;

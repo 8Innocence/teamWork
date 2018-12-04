@@ -3,12 +3,12 @@
       <div v-for="i in Example">
         <h2>{{i.name}}</h2>
         <div class="line"></div>
-      <div class="single">
-        <dl  v-for="j in i.arr">
-          <dt><img :src="j.pic"></dt>
-          <dd>{{j.text}}</dd>
-        </dl>
-      </div>
+        <div class="single">
+          <dl  v-for="j in i.arr">
+            <dt><img :src="j.pic"></dt>
+            <dd>{{j.text}}</dd>
+          </dl>
+        </div>
       </div>
     </div>
 </template>
@@ -21,27 +21,11 @@
             Example:[
               {
                 name:"WebApp模板",arr:[
-                  {pic:"../../../static/images/tt-hot1.jpg",text:"天猫"},
+                  {pic:"../../../static/images/ww.jpg",text:"天猫"},
                   {pic:"../../../static/images/tt-hot2.jpg",text:"壹号店"},
-                  {pic:"../../../static/images/tt-hot3.jpg",text:"交易猫"},
+                  {pic:"../../../static/images/xw.png",text:"交易猫"},
                   {pic:"../../../static/images/tt-hot4.jpg",text:"瓜子二手车"},
                   {pic:"../../../static/images/tt2.png",text:"虎牙直播"},
-                ]
-              },
-              {
-                name:"后台模板",arr:[
-                  {pic:"../../../static/images/tt1.png",text:"Purple"},
-                  {pic:"../../../static/images/tt-hot2.jpg",text:"京东webapp模板"},
-                  {pic:"../../../static/images/tt-hot3.jpg",text:"京东webapp模板"},
-                ]
-              },
-              {
-                name:"更多模板",arr:[
-                  {pic:"../../../static/images/tt-hot1.jpg",text:"京东webapp模板"},
-                  {pic:"../../../static/images/tt-hot2.jpg",text:"京东webapp模板"},
-                  {pic:"../../../static/images/tt-hot3.jpg",text:"京东webapp模板"},
-                  {pic:"../../../static/images/tt-hot4.jpg",text:"京东webapp模板"},
-                  {pic:"../../../static/images/tt-hot5.jpg",text:"京东webapp模板"},
                 ]
               },
 
@@ -60,7 +44,7 @@
       /*position:absolute;*/
       margin:0 auto;
       text-align: center;
-      margin-top:30px;
+      margin-top:10px;
 
     }
     .line{
@@ -73,14 +57,15 @@
       padding:30px 20px;
       display: flex;
       flex-wrap: wrap;
+      /*justify-content: space-between;*/
       dl{
-        flex:1;
-        height:300px;
-        margin:0 25px;
+        width: 20%;
+        padding:0 20px;
         display: flex;
         flex-direction: column;
         border:5px solid white;
          dt{
+
            width:100%;
            height:auto;
            overflow: hidden;

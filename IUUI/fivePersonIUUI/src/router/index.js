@@ -45,12 +45,11 @@ import introduce from "../pages/introduce"
 
 
 
-
-
 Vue.use(Router)
 
 export default new Router({
   routes: [
+
     {path: '/', name: 'Index',component:Index},
     {path: '/introduce', name: 'introduce',component:introduce},
     {

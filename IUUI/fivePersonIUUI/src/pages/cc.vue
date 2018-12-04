@@ -20,7 +20,9 @@
   .XT{
     width:100%;
     box-sizing: border-box;
-    background:#7dc499;
+  }
+  .cc{
+    background:url("../../static/images/index2.jpg") no-repeat bottom;
   }
 
 </style>

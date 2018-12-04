@@ -7,7 +7,7 @@
                 this.$slides = this.$slidesContainer.children('li');
                 this.$clipPath;
                 this.$directionControls;
-                
+
                 this.settings = $.extend({
                     autoRotate: true,
                     autoRotateInterval: 6000,
@@ -15,11 +15,11 @@
                     directionControls: true,
                     directionLeftText: '&lsaquo;',
                     directionRightText: '&rsaquo;',
-                    rotationSpeed: 750,
+                    rotationSpeed:750,
                     slideHeight : 360,
                     slideWidth : 480,
                 }, options);
-                
+
                 this.slideAngle = 360 / this.$slides.length;
                 this.currentRotationAngle = 0;
                 this.autoRotateIntervalId = false;
@@ -30,7 +30,7 @@
                 this.dragStartAngle;
                 this.currentlyDragging = false;
                 this.markupIsValid = false;
-                
+
                 this.validateMarkup();
                 if(this.markupIsValid){
                     this.renderSlider();
@@ -59,7 +59,7 @@
                 if(this.readyToDrag){
                     var pageX = (e.type === 'mousemove') ? e.pageX : e.originalEvent.touches[0].pageX;
                     if(
-                        this.currentlyDragging === false && 
+                        this.currentlyDragging === false &&
                         this.currentlyRotating === false  &&
                         (this.dragStartPoint - pageX > 10 || this.dragStartPoint - pageX < -10)
                     ){
@@ -153,7 +153,7 @@
                     $slide.css('-webkit-clip-path', 'url(#slideClipPath)');
                     $slide.css('clip-path', 'url(#slideClipPath)');
                 }.bind(this));
-                
+
                 /* Render Arrow Controls */
                 if(this.settings.directionControls){
                     var directionArrowsHTML = '<ul class="direction-controls">';
@@ -163,7 +163,7 @@
                     this.$slider.append(directionArrowsHTML);
                     this.$directionControls = this.$slider.find('ul.direction-controls');
                 }
-                
+
             },
             rotateClockwise: function(){
                 this.currentRotationAngle = this.currentRotationAngle + this.slideAngle;
@@ -179,10 +179,10 @@
                     clearTimeout(this.rotateTimeoutId);
                     this.rotateTimeoutId = false;
                 }
-                
+
                 this.$slidesContainer.css('transition', 'transform '+(this.settings.rotationSpeed/1000)+'s ease-in-out');
                 this.$slidesContainer.css('transform', 'translateX(-50%) rotate('+this.currentRotationAngle+'deg)');
-                
+
                 this.rotateTimeoutId = setTimeout(function(){
                     this.currentlyRotating = false;
                     this.$slidesContainer.css('transition', 'none');

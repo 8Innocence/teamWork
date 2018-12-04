@@ -6,7 +6,7 @@
       <!-- 内容 -->
       <p>{{item.label}}</p>
       <yd-list :theme="1">
-        <yd-list-item v-for="(i,idx) in 10">
+        <yd-list-item v-for="i in 10">
           <img slot="img" src="//static.shikee.com/common/img/blank.gif">
           <span slot="title">{{item.label}} - {{item.label}}</span>
         </yd-list-item>
