@@ -21,11 +21,11 @@
             Example:[
               {
                 name:"WebApp模板",arr:[
-                  {pic:"../../../static/images/ww.jpg",text:"天猫"},
+                  {pic:"../../../static/images/ww.jpg",text:"兲猫"},
                   {pic:"../../../static/images/tt-hot2.jpg",text:"壹号店"},
                   {pic:"../../../static/images/xw.png",text:"交易猫"},
-                  {pic:"../../../static/images/tt-hot4.jpg",text:"瓜子二手车"},
-                  {pic:"../../../static/images/tt2.png",text:"虎牙直播"},
+                  {pic:"../../../static/images/tt-hot4.jpg",text:"憨豆二手车"},
+                  {pic:"../../../static/images/tt2.png",text:"琥牙直播"},
                 ]
               },
 
