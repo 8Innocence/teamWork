@@ -5,7 +5,7 @@
       <div class="line"></div>
       <div class="single">
         <dl v-for="j in i.arr">
-          <dt><img :src="j.pic"></dt>
+          <dt><a :href="j.url"><img :src="j.pic"></a></dt>
           <dd>{{j.text}}</dd>
         </dl>
       </div>
@@ -21,10 +21,10 @@
         Example:[
           {
             name:"后台模板",arr:[
-              {pic:"../../../static/images/tt1.png",text:"Purple"},
-              {pic:"../../../static/images/hx.png",text:"Dream"},
-              {pic:"../../../static/images/hw.jpg",text:"Visual"},
-              {pic:"../../../static/images/hd.jpg",text:"Arise"},
+              {url:"https://w17612939306.github.io/Back-Stage/",pic:"../../../static/images/tt1.png",text:"Purple"},
+              {url:"https://w17612939306.github.io/Back-Stage/",pic:"../../../static/images/hx.png",text:"Dream"},
+              {url:"https://w17612939306.github.io/Back-Stage/",pic:"../../../static/images/hw.jpg",text:"Visual"},
+              {url:"https://w17612939306.github.io/Back-Stage/",pic:"../../../static/images/hd.jpg",text:"Arise"},
             ]
           },
           // {

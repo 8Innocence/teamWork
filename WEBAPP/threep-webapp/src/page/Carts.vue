@@ -33,7 +33,56 @@
         /**
          * 商品列表
          */
-        cars:[]
+        cars:[
+          {
+            "shopname":"王家村直销店",
+            "pic":"../../../static/images/110CDAHDB7ChRkRlvScHuAKv0VAAkBehgjeS4300.png",
+            "title":"作为理科生的我实在想不出词啦",
+            "msg":"一袋装",
+            "price":"10",
+            "qal":1
+          },
+          {
+            "shopname":"小沟沟专卖店",
+            "pic":"../../../static/images/1718EES12CChRkRlvScQeADsLZAAjPFqPAijs855.png",
+            "title":"很好吃 很营养 很新鲜",
+            "msg":"一只鸡",
+            "price":"10",
+            "qal":1
+          },
+          {
+            "shopname":"农产品直销店",
+            "pic":"../../../static/images/79453a2dbea242c486075f00122ec9f2.png",
+            "title":"美味的东西就应该好好被珍惜",
+            "msg":"喜欢的是好的",
+            "price":"10",
+            "qal":1
+          },
+          {
+            "shopname":"农产品直销店",
+            "pic":"../../../static/images/f30a876a-b7be-4240-9c95-e89c330576f4.jpg",
+            "title":"美味的东西就应该好好被珍惜",
+            "msg":"喜欢的是好的",
+            "price":"10",
+            "qal":1
+          },
+          {
+            "shopname":"农产品直销店",
+            "pic":"../../../static/images/AB5471CCF1ChRkRlvScKuAfh3DAAmeQ8tVYQU264.png",
+            "title":"美味的东西就应该好好被珍惜",
+            "msg":"喜欢的是好的",
+            "price":"10",
+            "qal":1
+          },
+          {
+            "shopname":"农产品直销店",
+            "pic":"../../../static/images/dl1.jpeg",
+            "title":"美味的东西就应该好好被珍惜",
+            "msg":"喜欢的是好的",
+            "price":"10",
+            "qal":1
+          }
+        ]
       }
     },
     methods:{
@@ -56,13 +105,13 @@
        * 加载页面的数据
        * @private
        */
-      _initPageData(){
-        carsApi.getCarsData(data=>{
-          this._countCarts(data)
-          this.cars = data;
-          console.log(this.cars)
-        })
-      },
+      // _initPageData(){
+      //   carsApi.getCarsData(data=>{
+      //     this._countCarts(data)
+      //     this.cars = data;
+      //     console.log(this.cars)
+      //   })
+      // },
       /**
        * 给每个商品增加件数
        * @param i
@@ -83,10 +132,10 @@
         }
       }
     },
-    created(){
-      //首页加载数据
-      this._initPageData()
-    },
+    // created(){
+    //   //首页加载数据
+    //   this._initPageData()
+    // },
 
     watch:{
       cars:{
