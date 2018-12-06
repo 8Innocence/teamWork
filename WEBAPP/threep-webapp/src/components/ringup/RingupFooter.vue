@@ -38,7 +38,7 @@
     position:absolute;
     top:.3rem;
     left:1.03rem;
-    background:#eee;
+    background:#ffffff;
   }
   .app{
     width:100%;

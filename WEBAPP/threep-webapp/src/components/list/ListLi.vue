@@ -69,21 +69,21 @@
                 "qal":"哇哈哈哈 好好吃"
               },
               {
-                "pic":"../../../static/images/f30a876a-b7be-4240-9c95-e89c330576f4.jpg",
+                "pic":"../../../static/images/sg4.jpeg",
                 "title":"好看又营养的新鲜水果...",
                 "price":"46.66",
                 "msg":"好吃到爆",
                 "qal":"哇哈哈哈 好好吃"
               },
               {
-                "pic":"../../../static/images/f30a876a-b7be-4240-9c95-e89c330576f4.jpg",
+                "pic":"../../../static/images/xt-recommend6.jpg",
                 "title":"好看又营养的新鲜水果...",
                 "price":"27.7",
                 "msg":"好吃到爆",
                 "qal":"哇哈哈哈 好好吃"
               },
               {
-                "pic":"../../../static/images/f30a876a-b7be-4240-9c95-e89c330576f4.jpg",
+                "pic":"../../../static/images/873b68e853ca477eb124023b4d1d7ef7.jpeg",
                 "title":"好看又营养的新鲜水果...",
                 "price":"9.00",
                 "msg":"好吃到爆",

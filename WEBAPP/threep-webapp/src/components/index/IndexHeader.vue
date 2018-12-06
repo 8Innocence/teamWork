@@ -1,6 +1,6 @@
 <template>
   <header>
-    <a href="javascript:;"><i class="iconfont icon-icon-test"></i><span>全部分类</span></a>
+    <router-link to="/Kind" ><i class="iconfont icon-icon-test"></i><span>全部分类</span></router-link>
     <div class="aa">
         <a href="javascript:;">
           <input type="text" placeholder="搜索商品 品牌">
@@ -11,11 +11,11 @@
 
     <ul v-if="show">
       <li></li>
-      <li><a href="javascript:;">供应大厅</a></li>
-      <li><a href="javascript:;">采购大厅</a></li>
-      <li><a href="javascript:;">行情大厅</a></li>
+      <li><a href="javascript:;" @click="gozhu()">供应大厅</a></li>
+      <li><a href="javascript:;" @click="gozhu()">采购大厅</a></li>
+      <li><a href="javascript:;" @click="gozhu()">行情大厅</a></li>
       <li><a href="javascript:;" @click="gozhu()">惠农咨询</a></li>
-      <li><a href="javascript:;">惠农学堂</a></li>
+      <li><a href="javascript:;" @click="gozhu()">惠农学堂</a></li>
     </ul>
 
   </header>

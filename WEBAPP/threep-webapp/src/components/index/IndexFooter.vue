@@ -1,52 +1,34 @@
 <template>
     <footer>
       <ul>
-        <li  @click="goindex(index)" class="aa" :class="{red:changeRed==index}"><i class="iconfont icon-shinonggongban-"></i><span>首页</span></li>
-        <li  @click="gocc()"><i class="iconfont icon-nongchanpinjiagechaxun"></i><span>分类</span></li>
-        <li  @click="golist()"><i class="iconfont icon-classification_icon_"></i><span>列表</span></li>
-        <li  @click="gocarts()"><i class="iconfont icon-pinpainongchanpin"></i><span>购物车</span></li>
-        <li  @click="gomine()"><i class="iconfont icon-nongchanpinxiaoshouxinxi"></i><span>我的</span></li>
+          <router-link :to="t.path"  tag="li"  :key="index" v-for="(t,index) in thisD" @click="gos(index)" exact><i :class="t.ifont" style="font-size: 25px;"></i><span>{{t.Datas}}</span>
+          </router-link>
+
+
       </ul>
     </footer>
 </template>
 
 <script>
     export default {
-        name: "IndexFooter",
+      name: "IndexFooter",
       data(){
         return{
-          changeRed:-1
+          changeRed:-1,
+          thisD:[
+            {"Datas":"首页","ifont":"iconfont icon-shinonggongban-","path":"/"},
+            {"Datas":"分类","ifont":"iconfont icon-nongchanpinjiagechaxun","path":"/Kind"},
+            {"Datas":"列表","ifont":"iconfont icon-classification_icon_","path":"/List"},
+            {"Datas":"购物车","ifont":"iconfont icon-pinpainongchanpin","path":"/Carts"},
+            {"Datas":"我的","ifont":"iconfont icon-nongchanpinxiaoshouxinxi","path":"/RingUp"}
+          ]
         }
       },
         methods:{
-          golist(index){
-            // this.changeRed=index;
-            this.$router.push({
-              path:"/List"
-            })
-          },
-          goindex(index){
-            this.$router.push({
-              path:"/"
-            })
-            this.changeRed=index;
-
-          },
-          gocarts(){
-            this.$router.push({
-              path:"/Carts"
-            })
-          },
-          gomine(){
-            this.$router.push({
-              path:"/RingUp"
-            })
-          },
-          gocc(){
-            this.$router.push({
-              path:"/Kind"
-            })
-          },
+          gos(index){
+             alert(index)
+             // console.log(index)
+          }
         }
     }
 </script>
@@ -58,9 +40,7 @@
   .red{
     color:red
   }
-  .iconfont{
-    color:#666;
-  }
+
   footer ul{
     display: flex;
     height: .5rem;
@@ -70,8 +50,11 @@
     border-top:1px solid #ababab;
     background:white;
   }
-  footer ul li span{
+  footer ul li{
     font-size:.12rem;
     color: #333333;
+  }
+  footer ul .router-link-exact-active{
+    color: #ac0;
   }
 </style>

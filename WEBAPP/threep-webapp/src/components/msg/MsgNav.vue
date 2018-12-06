@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <strong>￥<span>9999</span> <span>尝鲜价</span></strong>
-    <p>价格：<span>￥18888</span></p>
+    <strong>￥<span>9.99</span> <span>尝鲜价</span></strong>
+    <p>价格：<span>￥19.99</span></p>
     <p class="word">好看又好吃的水果，全国包邮，赶快来抢购吧<img src="../../../static/img/msg1.gif" alt=""></p>
     <div>
       <span>快递：0.00</span>

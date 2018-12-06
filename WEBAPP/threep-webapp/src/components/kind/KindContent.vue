@@ -292,8 +292,6 @@
                     {"pic": "../../../static/images/04770f5239b54b4b86ca529afaace433.jpeg", "title": "银妃三华李树苗"},
                     {"pic": "../../../static/images/1718EES12CChRkRlvScQeADsLZAAjPFqPAijs855.png", "title": "皇帝橘"}
                   ]},
-
-
               ]
             }
         },

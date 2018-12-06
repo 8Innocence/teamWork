@@ -32,8 +32,8 @@
     margin-bottom:.17rem;
   }
   header p{
-    font-size:.12rem;
-    color:#f72929;
+    font-size:.15rem;
+    color:dimgray;
   }
   header h2{
     font-size:.16rem;
